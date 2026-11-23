@@ -1,0 +1,125 @@
+{
+ "bgm": "StageLogin",
+ "elements": [
+  {
+   "kind": "jpg",
+   "x": 0,
+   "y": 0,
+   "src": "CStage default bg sub_4AF36A",
+   "sprite": "LoginStage/CAStage"
+  },
+  {
+   "kind": "image",
+   "x": 188,
+   "y": 413,
+   "src": "GameStage/LoginStage.png match (424x137 centered)",
+   "sprite": "LoginStage/LO_LogTable00",
+   "id": "log_table"
+  },
+  {
+   "kind": "edit",
+   "x": 403,
+   "y": 463,
+   "src": "LO_LogTable00 white box 1: (188+215, 413+50)",
+   "id": "user_id",
+   "w": 91,
+   "h": 19,
+   "text": "ID"
+  },
+  {
+   "kind": "edit",
+   "x": 403,
+   "y": 488,
+   "src": "LO_LogTable00 white box 2: (188+215, 413+75)",
+   "id": "password",
+   "w": 91,
+   "h": 19,
+   "text": "Password",
+   "secret": true
+  },
+  {
+   "kind": "edit",
+   "x": 451,
+   "y": 463,
+   "src": "LO_LogTable01 2P box 1: (143+308, 413+50)",
+   "id": "user2_id",
+   "w": 88,
+   "h": 19,
+   "visible": false
+  },
+  {
+   "kind": "edit",
+   "x": 451,
+   "y": 488,
+   "src": "LO_LogTable01 2P box 2: (143+308, 413+75)",
+   "id": "password2",
+   "w": 88,
+   "h": 19,
+   "secret": true,
+   "visible": false
+  },
+  {
+   "kind": "button",
+   "x": 196,
+   "y": 437,
+   "src": "LO_Bt1P 1P tab button: (188+8, 413+24)",
+   "sprite": "LoginStage/LO_Bt1P",
+   "action": "login_mode:1p",
+   "id": "btn_1p",
+   "disabled": true
+  },
+  {
+   "kind": "button",
+   "x": 529,
+   "y": 437,
+   "src": "LO_Bt2P 2P tab button: (188+341, 413+24)",
+   "sprite": "LoginStage/LO_Bt2P",
+   "action": "login_mode:2p",
+   "id": "btn_2p",
+   "disabled": false
+  },
+  {
+   "kind": "button",
+   "x": 189,
+   "y": 560,
+   "src": "CLoginStage::sub_5694A3 + GameStage/LoginStage.png (189, 560)",
+   "sprite": "LoginStage/LO_BtLogPW",
+   "action": "dialog:forgot_pw"
+  },
+  {
+   "kind": "button",
+   "x": 297,
+   "y": 560,
+   "src": "CLoginStage::sub_5694A3 + GameStage/LoginStage.png (297, 560)",
+   "sprite": "LoginStage/LO_BtLogNewId",
+   "action": "dialog:register"
+  },
+  {
+   "kind": "button",
+   "x": 405,
+   "y": 560,
+   "src": "CLoginStage::sub_5694A3 + GameStage/LoginStage.png (405, 560)",
+   "sprite": "LoginStage/LO_BtLogOk",
+   "action": "login",
+   "id": "btn_login"
+  },
+  {
+   "kind": "button",
+   "x": 514,
+   "y": 560,
+   "src": "CLoginStage::sub_5694A3 + GameStage/LoginStage.png (514, 560)",
+   "sprite": "LoginStage/LO_BtLogExit",
+   "action": "quit"
+  },
+  {
+   "kind": "label",
+   "x": 280,
+   "y": 525,
+   "src": "Notice under table",
+   "id": "Notice",
+   "text": "",
+   "font_size": 12,
+   "font_color": "#ff4444"
+  }
+ ]
+}

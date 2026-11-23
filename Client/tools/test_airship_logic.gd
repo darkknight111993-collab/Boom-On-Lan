@@ -1,0 +1,155 @@
+extends SceneTree
+
+## Headless unit tests for Item/ItemAirship & Item/ItemAirshipBroken
+## Test vectors TV-1..TV-7 from docs/migration/specs/item_airship.md
+
+const CItemAttrClass = preload("res://scripts/objects/citem_attr.gd")
+const CGOBomberClass = preload("res://scripts/objects/cgo_bomber.gd")
+const CShipAttrClass = preload("res://scripts/objects/cship_attr.gd")
+
+func _init() -> void:
+	print("[TEST] Running Airship item logic tests (TV-1..TV-7)...")
+
+	# TV-1: Parse Ship/Airship (id=1)
+	CItemAttrClass.load_data("res://data/item_attr.json")
+	var airship: Dictionary = CItemAttrClass.get_ship_attr(1)
+	assert(not airship.is_empty(), "TV-1: Ship/Airship (id=1) must exist")
+	assert(airship.get("name") == "Ship/Airship", "TV-1: name mismatch")
+	assert(bool(airship.get("is_flying")) == true, "TV-1: Airship must be flying")
+	assert(int(airship.get("speed")) == 10, "TV-1: Airship speed must be 10")
+	assert(int(airship.get("speed_alt")) == 0, "TV-1: Airship speed_alt must be 0")
+	assert(bool(airship.get("ab_not_eat_item")) == true, "TV-1: ab_not_eat_item must be true")
+	assert(bool(airship.get("ab_pass_box")) == true, "TV-1: ab_pass_box must be true")
+	assert(bool(airship.get("ab_kart")) == false, "TV-1: ab_kart must be false")
+	assert(bool(airship.get("ab_tank")) == false, "TV-1: ab_tank must be false")
+	assert(CItemAttrClass.is_ship_or_item_name("Ship/Airship") == true, "IsShipOrItemName Ship/ failed")
+	assert(CItemAttrClass.is_ship_or_item_name("Item/ItemAirship") == true, "IsShipOrItemName Item/ failed")
+	assert(CItemAttrClass.is_ship_or_item_name("Tile/Box") == false, "IsShipOrItemName Tile/ must be false")
+	print("  [PASS] TV-1: Ship/Airship attributes & IsShipOrItemName")
+
+	# TV-2: Parse Ship/AirshipBroken (id=5)
+	var broken: Dictionary = CItemAttrClass.get_ship_attr(5)
+	assert(not broken.is_empty(), "TV-2: Ship/AirshipBroken (id=5) must exist")
+	assert(broken.get("name") == "Ship/AirshipBroken", "TV-2: name mismatch")
+	assert(bool(broken.get("is_flying")) == true, "TV-2: AirshipBroken must be flying")
+	assert(int(broken.get("speed")) == 2, "TV-2: AirshipBroken speed must be 2")
+	assert(bool(broken.get("ab_not_eat_item")) == true, "TV-2: ab_not_eat_item must be true")
+	assert(bool(broken.get("ab_pass_box")) == true, "TV-2: ab_pass_box must be true")
+	print("  [PASS] TV-2: Ship/AirshipBroken attributes")
+
+	# TV-3: Pickup Item/ItemAirship when on foot
+	var bomber: CGOBomber = CGOBomberClass.new()
+	bomber.setup(0, "TestP1", "Character/C00", 1, 1, Color.RED)
+	assert(bomber.mount == null, "TV-3: bomber must start on foot")
+	assert(bomber.can_eat_item() == true, "TV-3: bomber on foot can eat items")
+	assert(bomber.can_pass_box() == false, "TV-3: bomber on foot cannot pass boxes")
+	bomber.apply_item("Item/ItemAirship")
+	assert(bomber.mount != null, "TV-3: mount must be equipped")
+	assert(bomber.mount.get("short_name") == "Airship", "TV-3: mount must be Airship")
+	assert(bomber.get_effective_speed() == 10, "TV-3: effective speed must be 10")
+	assert(bomber.m_fAbPassBox == true and bomber.can_pass_box() == true, "TV-3: m_fAbPassBox must be true")
+	assert(bomber.m_fAbNotEatItem == true and bomber.can_eat_item() == false, "TV-3: m_fAbNotEatItem must block eating")
+	print("  [PASS] TV-3: Pickup Item/ItemAirship sets mount & abilities")
+
+	# TV-4: Refusal to ride a second mount while already riding Airship
+	var second_ok: bool = bomber.equip_mount("AirshipBroken")
+	assert(second_ok == false, "TV-4: RideShip must return false when already mounted")
+	assert(bomber.mount.get("short_name") == "Airship", "TV-4: existing Airship must remain")
+	assert(bomber.get_effective_speed() == 10, "TV-4: speed must stay 10")
+	print("  [PASS] TV-4: Second mount refused while riding Airship")
+
+	# TV-5: Dismount clears mount & both abilities
+	bomber.destroy_mount()
+	assert(bomber.mount == null, "TV-5: mount must be null after dismount")
+	assert(bomber.m_fAbPassBox == false and bomber.can_pass_box() == false, "TV-5: m_fAbPassBox must be cleared")
+	assert(bomber.m_fAbNotEatItem == false and bomber.can_eat_item() == true, "TV-5: m_fAbNotEatItem must be cleared")
+	assert(bomber.action == "stop_ride", "TV-5: action must enter stop_ride")
+	print("  [PASS] TV-5: Dismount clears Airship & abilities")
+
+	# Also verify AirshipBroken pickup & Spanner upgrade
+	bomber.apply_item("Item/ItemAirshipBroken")
+	assert(bomber.mount != null and bomber.mount.get("short_name") == "AirshipBroken", "AirshipBroken equip failed")
+	assert(bomber.get_effective_speed() == 2, "AirshipBroken speed must be 2")
+	bomber.apply_item("Item/ItemSpanner")
+	assert(bomber.mount != null and bomber.mount.get("short_name") == "Airship", "Spanner must upgrade AirshipBroken -> Airship")
+	assert(bomber.get_effective_speed() == 10, "Upgraded Airship speed must be 10")
+	print("  [PASS] Extra: AirshipBroken (speed=2) + Spanner -> Airship (speed=10)")
+
+	# TV-6: Parabolic jump arc formula (0x5990D6)
+	assert(CGOBomberClass.get_ship_jump_arc_dy(9) == -16, "TV-6: c=9 mount peak must be -16")
+	assert(CGOBomberClass.get_ship_jump_arc_dy(-17) == -36, "TV-6: c=-17 dismount peak must be -36")
+	assert(CGOBomberClass.get_ship_jump_arc_dy(-30) == 0, "TV-6: c=-30 must be 0")
+	assert(CGOBomberClass.get_ship_jump_arc_dy(-35) == 0, "TV-6: c=-35 must be 0")
+	print("  [PASS] TV-6: Parabolic jump arc formula (0x5990D6)")
+
+	# TV-7: Dismount blink visibility formula (0x59923A)
+	assert(CGOBomberClass.is_ship_visible_for_ride_count(0) == true, "TV-7: c=0 must be visible")
+	assert(CGOBomberClass.is_ship_visible_for_ride_count(5) == true, "TV-7: c=5 must be visible")
+	assert(CGOBomberClass.is_ship_visible_for_ride_count(-5) == false, "TV-7: c=-5 must be hidden")
+	assert(CGOBomberClass.is_ship_visible_for_ride_count(-10) == false, "TV-7: c=-10 (10%8=2) must be hidden")
+	assert(CGOBomberClass.is_ship_visible_for_ride_count(-12) == true, "TV-7: c=-12 (12%8=4) must be visible")
+	print("  [PASS] TV-7: Dismount blink visibility (0x59923A)")
+
+	# TV-3 & TV-8 (ship_mounts.md): Shared CShipAttr (Owl, Turtle0/1, RailCar) & GetAltSpeed (0x597EC6)
+	var owl: Dictionary = CItemAttrClass.get_ship_attr(2)
+	var turtle0: Dictionary = CItemAttrClass.get_ship_attr(3)
+	var turtle1: Dictionary = CItemAttrClass.get_ship_attr(4)
+	assert(bool(owl.get("is_flying")) == false and int(owl.get("speed")) == 5 and bool(owl.get("ab_pass_box")) == false, "Owl attr mismatch")
+	assert(bool(turtle0.get("is_flying")) == false and int(turtle0.get("speed")) == 2, "Turtle0 attr mismatch")
+	assert(bool(turtle1.get("is_flying")) == false and int(turtle1.get("speed")) == 9, "Turtle1 attr mismatch")
+	assert(bomber.get_effective_speed(true) == 10, "TV-8: Airship alt speed must fallback to 10")
+	bomber.destroy_mount()
+	bomber.equip_mount("RailCar")
+	assert(bomber.ship_ride_count == 15, "Mount ticks must start at 15")
+	for _m in range(15):
+		bomber._on_tick()
+	assert(bomber.ship_ride_count == 0, "Mount ticks must reach 0 after 15 ticks")
+	assert(bomber.get_effective_speed(false) == 2 and bomber.get_effective_speed(true) == 10, "TV-8: RailCar normal=2, alt=10")
+	assert(absf(CGOBomberClass.ship_speed_to_pixels_per_sec(10) - 333.3333) < 0.1, "Airship px/s mismatch")
+	assert(absf(CGOBomberClass.ship_speed_to_pixels_per_sec(2) - 66.6667) < 0.1, "AirshipBroken px/s mismatch")
+	# Verify standalone CShipAttr + CGOShip classes directly
+	var ship_res: CShipAttrClass = CItemAttrClass.get_ship_resource("Airship")
+	assert(ship_res != null and ship_res.is_flying and ship_res.speed == 10 and ship_res.ab_pass_box, "CShipAttr resource failed")
+	assert(bomber.go_ship != null and bomber.go_ship.is_valid() and bomber.go_ship.attr.short_name == "RailCar", "CGOShip instance failed")
+	assert(bomber.go_ship.get_sprite_path(0) == "Ship/RailCar-Down", "CGOShip sprite path failed")
+	# Verify dismount remembers ship sprite path and clears after 50 ticks
+	bomber.destroy_mount()
+	assert(bomber._dismount_ship_sprite_path == "Ship/RailCar-Down", "Dismount must keep ship sprite for blink")
+	assert(bomber.ship_dismount_ticks == 50, "Dismount ticks must start at 50")
+	for _t in range(50):
+		bomber._on_tick()
+	assert(bomber.ship_dismount_ticks == 0 and bomber._dismount_ship_sprite_path == "", "Dismount must finish cleanly after 50 ticks")
+	print("  [PASS] TV-3 & TV-8: Standalone CShipAttr + CGOShip (Owl/Turtle/RailCar), GetAltSpeed & 50-tick dismount")
+
+	# TV-12: Kart fuel curve & boost 2x speed (0x5BC639, ca.exe.c:349464..349476)
+	var CGOShipClass = preload("res://scripts/objects/cgo_ship.gd")
+	assert(CGOShipClass.calc_kart_speed(5, 300, false) == 5, "TV-12: Kart normal fuel >= 240 -> speed 5")
+	assert(CGOShipClass.calc_kart_speed(5, 100, false) == 2, "TV-12: Kart low fuel < 240 -> half speed (5/2=2)")
+	assert(CGOShipClass.calc_kart_speed(5, 0, false) == 2, "TV-12: Kart empty fuel 0 -> speed 2")
+	assert(CGOShipClass.calc_kart_speed(5, 300, true) == 10, "TV-12: Kart boosting -> 2x speed (10)")
+	assert(bomber.equip_mount("Kart") == true and bomber.get_effective_speed() == 5, "TV-12: Kart base speed 5")
+	assert(bomber.trigger_kart_boost() == true and bomber.get_effective_speed() == 10, "TV-12: trigger_kart_boost doubles speed to 10")
+	assert(bomber.go_ship.get_sprite_path(0) == "Ship/KartBoost_Down", "TV-12: Kart boosting uses Ship/KartBoost sprite")
+	for _kt in range(CGOShipClass.KART_BOOST_TICKS):
+		bomber._on_tick()
+	assert(bomber.go_ship.kart_boosting == false and bomber.get_effective_speed() == 5, "TV-12: Kart boost ends after 12 ticks")
+	assert(bomber.trigger_kart_boost() == false, "TV-12: Kart boost blocked during cooldown")
+	for _cd in range(CGOShipClass.KART_BOOST_COOLDOWN_TICKS):
+		bomber._on_tick()
+	assert(bomber.trigger_kart_boost() == true, "TV-12: Kart boost available again after cooldown")
+	bomber.destroy_mount()
+	# TV-13: Shark variant swap (0x5BC7C9) & sprite path (0x5BC742)
+	assert(CGOShipClass.calc_shark_variant(0) == 0 and CGOShipClass.calc_shark_variant(1) == 1 and CGOShipClass.calc_shark_variant(2) == 1 and CGOShipClass.calc_shark_variant(3) == 2, "TV-13: Shark variant thresholds 0/1/2")
+	var shark_attr := CShipAttrClass.new()
+	shark_attr.id = 16
+	shark_attr.short_name = "Shark"
+	var shark_ship = CGOShipClass.new()
+	shark_ship.init_ship(shark_attr, 0)
+	assert(shark_ship.get_sprite_path(0) == "Ship/Shark00-Down", "TV-13: Shark00 sprite path")
+	shark_ship.update_shark_variant(3)
+	assert(shark_ship.get_sprite_path(2) == "Ship/Shark02-Left", "TV-13: Shark02 sprite path after eating 3 bombs")
+	print("  [PASS] TV-12 & TV-13: Kart fuel/boost (0x5BC639) & Shark variant (0x5BC7C9) verified")
+
+	bomber.free()
+	print("[TEST] ALL SHIP/AIRSHIP LOGIC TESTS PASSED!")
+	quit(0)

@@ -1,0 +1,72 @@
+{
+ "bgm": "Village",
+ "elements": [
+  {
+   "kind": "jpg",
+   "x": 0,
+   "y": 0,
+   "src": "Game/CAStage 800x600 background (map viewport 20,41 size 600x520)",
+   "sprite": "Game/CAStage"
+  },
+  {
+   "kind": "image",
+   "x": 716,
+   "y": 78,
+   "id": "TimerMinTens",
+   "src": "CGameStage (AnalizeTWClient/GameStage.ts + GameStage/GameStage.png) min tens",
+   "sprite": "Game/Timer",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 730,
+   "y": 78,
+   "id": "TimerMinOnes",
+   "src": "CGameStage (AnalizeTWClient/GameStage.ts + GameStage/GameStage.png) min ones",
+   "sprite": "Game/Timer",
+   "frame": 2
+  },
+  {
+   "kind": "image",
+   "x": 750,
+   "y": 78,
+   "id": "TimerSecTens",
+   "src": "CGameStage (AnalizeTWClient/GameStage.ts + GameStage/GameStage.png) sec tens",
+   "sprite": "Game/Timer",
+   "frame": 5
+  },
+  {
+   "kind": "image",
+   "x": 764,
+   "y": 78,
+   "id": "TimerSecOnes",
+   "src": "CGameStage (AnalizeTWClient/GameStage.ts + GameStage/GameStage.png) sec ones",
+   "sprite": "Game/Timer",
+   "frame": 7
+  },
+  {
+   "kind": "image",
+   "x": 647,
+   "y": 466,
+   "src": "CGameStage (AnalizeTWClient/GameStage.ts + GameStage/GameStage.png) ItemBox01 (647, 466)",
+   "sprite": "Game/ItemBox01"
+  },
+  {
+   "kind": "image",
+   "x": 152,
+   "y": 564,
+   "id": "PersonalItemBar",
+   "src": "CGameStage (GameStage/GameStage.png) Game/GameStageItem 6-slot personal bar",
+   "sprite": "Game/GameStageItem",
+   "frame": 0
+  },
+  {
+   "kind": "button",
+   "x": 647,
+   "y": 561,
+   "src": "CGameStage (AnalizeTWClient/GameStage.ts + GameStage/GameStage.png) exact match (647, 561)",
+   "sprite": "Game/BtExit",
+   "action": "goto:prepare"
+  }
+ ]
+}

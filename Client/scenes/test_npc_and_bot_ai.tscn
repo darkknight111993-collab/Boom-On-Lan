@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dmfxbotai01"]
+
+[ext_resource type="Script" path="res://tools/test_npc_and_bot_ai.gd" id="1_test"]
+
+[node name="TestNpcAndBotAi" type="Node2D"]
+script = ExtResource("1_test")

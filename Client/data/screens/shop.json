@@ -1,0 +1,182 @@
+{
+  "bgm": "StageSquare",
+  "elements": [
+    {
+      "kind": "jpg",
+      "x": 0,
+      "y": 0,
+      "src": "CShopStageNew 800x600 background (Shop/Stage)",
+      "sprite": "Shop/Stage"
+    },
+    {
+      "kind": "label",
+      "id": "NoticeMarquee",
+      "x": 30,
+      "y": 10,
+      "w": 452,
+      "h": 14,
+      "text": "Chào mừng đến Cửa Hàng Boom On LAN! Chọn vật phẩm để mặc thử hoặc mua.",
+      "font_size": 10,
+      "font_color": "#ffffff"
+    },
+    {
+      "kind": "button",
+      "id": "tab_special",
+      "x": 2,
+      "y": 36,
+      "src": "CShopStageNew::InitTabs 0x7F59A0 id=5000",
+      "sprite": "Shop/S_TabSpecial",
+      "action": "shop:tab:special"
+    },
+    {
+      "kind": "button",
+      "id": "tab_item",
+      "x": 90,
+      "y": 36,
+      "src": "CShopStageNew::InitTabs 0x7F59A0 id=5001",
+      "sprite": "Shop/S_TabItem",
+      "action": "shop:tab:item"
+    },
+    {
+      "kind": "button",
+      "id": "tab_set",
+      "x": 178,
+      "y": 36,
+      "src": "CShopStageNew::InitTabs 0x7F59A0 id=5002",
+      "sprite": "Shop/S_TabSet",
+      "action": "shop:tab:set"
+    },
+    {
+      "kind": "button",
+      "id": "tab_char",
+      "x": 266,
+      "y": 36,
+      "src": "CShopStageNew::InitTabs 0x7F59A0 id=5003",
+      "sprite": "Shop/S_TabChar",
+      "action": "shop:tab:char"
+    },
+    {
+      "kind": "button",
+      "id": "tab_slot",
+      "x": 354,
+      "y": 36,
+      "src": "CShopStageNew::InitTabs 0x7F59A0 id=5004",
+      "sprite": "Shop/S_TabSlot",
+      "action": "shop:tab:slot"
+    },
+    {
+      "kind": "button",
+      "id": "btn_cash",
+      "x": 408,
+      "y": 82,
+      "src": "CShopStageNew::InitTabs 0x7F59A0 id=4900",
+      "sprite": "Shop/S_BtCash",
+      "action": "shop:currency:cash"
+    },
+    {
+      "kind": "button",
+      "id": "btn_lucci",
+      "x": 449,
+      "y": 82,
+      "src": "CShopStageNew::InitTabs 0x7F59A0 id=4901",
+      "sprite": "Shop/S_BtLucci",
+      "action": "shop:currency:lucci"
+    },
+    {
+      "kind": "button",
+      "id": "btn_search",
+      "x": 470,
+      "y": 46,
+      "src": "CShopStageNew::InitButtons 0x804C7E id=6103",
+      "sprite": "Shop/S_BtSearch",
+      "action": "shop:search"
+    },
+    {
+      "kind": "button",
+      "id": "btn_select_char",
+      "x": 557,
+      "y": 5,
+      "src": "CShopStageNew::InitButtons 0x804C7E id=6100",
+      "sprite": "Shop/S_BtSelecCharDown",
+      "action": "shop:cycle_char"
+    },
+    {
+      "kind": "button",
+      "id": "btn_undo",
+      "x": 528,
+      "y": 287,
+      "src": "CShopStageNew::InitButtons 0x804C7E id=6102",
+      "sprite": "Shop/S_BtUndo",
+      "action": "shop:undo"
+    },
+    {
+      "kind": "button",
+      "id": "btn_hide",
+      "x": 528,
+      "y": 311,
+      "src": "CShopStageNew::InitButtons 0x804C7E id=6101",
+      "sprite": "Shop/S_BtHide",
+      "action": "shop:hide"
+    },
+    {
+      "kind": "button",
+      "id": "btn_recharge",
+      "x": 621,
+      "y": 431,
+      "src": "CShopStageNew::InitButtons 0x804C7E id=6104",
+      "sprite": "Shop/S_BtRechaCash",
+      "action": "shop:recharge"
+    },
+    {
+      "kind": "button",
+      "id": "btn_lucky",
+      "x": 558,
+      "y": 526,
+      "src": "CShopStageNew::InitButtons 0x804C7E id=6107",
+      "sprite": "Shop/S_BtLucky",
+      "action": "shop:lucky"
+    },
+    {
+      "kind": "button",
+      "id": "btn_back",
+      "x": 725,
+      "y": 562,
+      "src": "GlobalUI/BtBack exit Shop",
+      "sprite": "GlobalUI/BtBack",
+      "action": "shop:back"
+    },
+    {
+      "kind": "label",
+      "id": "LucciLabel",
+      "x": 626,
+      "y": 363,
+      "w": 130,
+      "h": 18,
+      "text": "50000",
+      "font_size": 12,
+      "font_color": "#ffe466"
+    },
+    {
+      "kind": "label",
+      "id": "CashLabel",
+      "x": 626,
+      "y": 399,
+      "w": 130,
+      "h": 18,
+      "text": "10000",
+      "font_size": 12,
+      "font_color": "#80e8ff"
+    },
+    {
+      "kind": "label",
+      "id": "StatusLabel",
+      "x": 31,
+      "y": 532,
+      "w": 430,
+      "h": 20,
+      "text": "",
+      "font_size": 11,
+      "font_color": "#ffffff"
+    }
+  ]
+}

@@ -1,0 +1,1463 @@
+{
+ "notice": {
+  "x": 240,
+  "y": 174,
+  "w": 320,
+  "h": 252,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Etc/Dlg_Notice"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 78,
+    "id": "msg",
+    "text": "",
+    "w": 242,
+    "h": 104,
+    "font_size": 12,
+    "font_color": "#ffffff",
+    "wrap": true
+   },
+   {
+    "kind": "button",
+    "x": 109,
+    "y": 206,
+    "sprite": "Etc/BtClose",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "forgot_pw": {
+  "x": 193,
+  "y": 193,
+  "w": 414,
+  "h": 213,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "LoginStage/Dlg_LO-PW"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 73,
+    "text": "Tên tài khoản",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 100,
+    "text": "Email đăng ký",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 127,
+    "text": "Câu hỏi bí mật",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 72,
+    "id": "pw_id",
+    "w": 250,
+    "h": 19,
+    "text": "Nhập tên nhân vật"
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 99,
+    "id": "pw_email",
+    "w": 250,
+    "h": 19,
+    "text": "example@email.com"
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 126,
+    "id": "pw_ans",
+    "w": 250,
+    "h": 19,
+    "text": "Nhập câu trả lời"
+   },
+   {
+    "kind": "button",
+    "x": 98,
+    "y": 167,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:submit_forgot_pw"
+   },
+   {
+    "kind": "button",
+    "x": 214,
+    "y": 167,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "register": {
+  "x": 193,
+  "y": 153,
+  "w": 414,
+  "h": 294,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "LoginStage/Dlg_LO-NewID"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 73,
+    "text": "Tên nhân vật",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 100,
+    "text": "Mật khẩu",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 127,
+    "text": "Xác nhận MK",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 154,
+    "text": "Email",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 181,
+    "text": "Giới tính",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 208,
+    "text": "Điều khoản",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 72,
+    "id": "reg_id",
+    "w": 165,
+    "h": 19,
+    "text": "Tên đăng nhập"
+   },
+   {
+    "kind": "button",
+    "x": 308,
+    "y": 71,
+    "sprite": "LoginStage/LO_Bt_IDCheck",
+    "action": "dialog:check_id"
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 99,
+    "id": "reg_pw",
+    "w": 250,
+    "h": 19,
+    "text": "Mật khẩu",
+    "secret": true
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 126,
+    "id": "reg_pw2",
+    "w": 250,
+    "h": 19,
+    "text": "Nhập lại mật khẩu",
+    "secret": true
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 153,
+    "id": "reg_email",
+    "w": 250,
+    "h": 19,
+    "text": "example@email.com"
+   },
+   {
+    "kind": "checkbox",
+    "x": 136,
+    "y": 180,
+    "id": "reg_male",
+    "checked": true
+   },
+   {
+    "kind": "checkbox",
+    "x": 262,
+    "y": 180,
+    "id": "reg_female",
+    "checked": false
+   },
+   {
+    "kind": "label",
+    "x": 138,
+    "y": 208,
+    "text": "Chấp nhận quy định LAN",
+    "font_size": 10,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "checkbox",
+    "x": 265,
+    "y": 207,
+    "id": "reg_agree",
+    "checked": true
+   },
+   {
+    "kind": "button",
+    "x": 98,
+    "y": 248,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:submit_register"
+   },
+   {
+    "kind": "button",
+    "x": 214,
+    "y": 248,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "login_wait": {
+  "x": 277,
+  "y": 177,
+  "w": 245,
+  "h": 246,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "LoginStage/Dlg_LO-Wait"
+   },
+   {
+    "kind": "image",
+    "x": 76,
+    "y": 114,
+    "sprite": "LoginStage/Dlg_LO-WaitingNumber",
+    "id": "wait_d1",
+    "frame": 0
+   },
+   {
+    "kind": "image",
+    "x": 124,
+    "y": 114,
+    "sprite": "LoginStage/Dlg_LO-WaitingNumber",
+    "id": "wait_d2",
+    "frame": 3
+   },
+   {
+    "kind": "button",
+    "x": 72,
+    "y": 203,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:cancel_login_wait",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "create_room": {
+  "x": 28,
+  "y": 85,
+  "w": 743,
+  "h": 430,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Lobby/Dlg_Creat_MS2_Extension"
+   },
+   {
+    "kind": "mode_strip",
+    "x": 24,
+    "y": 62,
+    "id": "mode_strip",
+    "w": 695,
+    "h": 198,
+    "modes": [
+     {
+      "id": "normal",
+      "sprite": "Lobby/Normal_bt01",
+      "label": "1. Đại Chiến (Mặc định)"
+     },
+     {
+      "id": "gametype",
+      "sprite": "Lobby/Gametype_bt01",
+      "label": "2. Kiểu Chơi (Đội trưởng / Nhím / Sinh tồn / Hẹn giờ)",
+      "sub_icons": [
+       {
+        "id": "captain",
+        "component_id": 12,
+        "sprite": "Lobby/Gametype_bt_Captain",
+        "label": "Đội trưởng"
+       },
+       {
+        "id": "hedgehog",
+        "component_id": 11,
+        "sprite": "Lobby/Gametype_bt_Hedgehog",
+        "label": "Săn nhím"
+       },
+       {
+        "id": "survival",
+        "component_id": 10,
+        "sprite": "Lobby/Gametype_bt_Survival",
+        "label": "Sinh tồn"
+       },
+       {
+        "id": "timebomb",
+        "component_id": 13,
+        "sprite": "Lobby/Gametype_bt_TimeBomb",
+        "label": "Hẹn giờ"
+       }
+      ]
+     },
+     {
+      "id": "ai_battle",
+      "sprite": "Lobby/Battle_bt01",
+      "label": "3. Đấu Trường AI"
+     },
+     {
+      "id": "mon_season2",
+      "sprite": "Lobby/Monster2_bt01",
+      "label": "4. Săn Quái S2"
+     },
+     {
+      "id": "super_fighter2",
+      "sprite": "Lobby/SuperF2_bt",
+      "label": "5. Super Fighter 2"
+     },
+     {
+      "id": "zzolman",
+      "sprite": "Lobby/Zzolman_bt",
+      "label": "6. Đất Sét"
+     },
+     {
+      "id": "snowball",
+      "sprite": "Lobby/SnowBallFight_bt",
+      "label": "7. Ném Tuyết"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "x": 44,
+    "y": 276,
+    "text": "Tên Phòng",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 44,
+    "y": 303,
+    "text": "Kiểu Chia Đội",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 44,
+    "y": 330,
+    "text": "Mật Khẩu",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "edit",
+    "x": 232,
+    "y": 275,
+    "id": "room_name",
+    "w": 468,
+    "h": 19,
+    "text": "Càng Xấu Càng Tốt"
+   },
+   {
+    "kind": "text_button",
+    "x": 236,
+    "y": 300,
+    "w": 84,
+    "h": 22,
+    "id": "team_arrange_0",
+    "text": "● Tự do",
+    "font_size": 11,
+    "font_color": "#fff259",
+    "action": "dialog:select_team_arrange:0"
+   },
+   {
+    "kind": "text_button",
+    "x": 324,
+    "y": 300,
+    "w": 90,
+    "h": 22,
+    "id": "team_arrange_1",
+    "text": "○ Đấu đội",
+    "font_size": 11,
+    "font_color": "#ffffff",
+    "action": "dialog:select_team_arrange:1"
+   },
+   {
+    "kind": "text_button",
+    "x": 418,
+    "y": 300,
+    "w": 90,
+    "h": 22,
+    "id": "team_arrange_2",
+    "text": "○ Tự động",
+    "font_size": 11,
+    "font_color": "#ffffff",
+    "action": "dialog:select_team_arrange:2"
+   },
+   {
+    "kind": "label",
+    "x": 518,
+    "y": 303,
+    "id": "mode_label",
+    "text": "1. Đại Chiến (Mặc định)",
+    "font_size": 11,
+    "font_color": "#ffff77"
+   },
+   {
+    "kind": "edit",
+    "x": 232,
+    "y": 329,
+    "id": "room_pw",
+    "w": 224,
+    "h": 19,
+    "text": "",
+    "secret": true,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "checkbox",
+    "x": 476,
+    "y": 328,
+    "id": "room_lock",
+    "checked": false
+   },
+   {
+    "kind": "label",
+    "x": 502,
+    "y": 330,
+    "text": "Tạo khóa mật khẩu",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "button",
+    "x": 263,
+    "y": 377,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:submit_create_room"
+   },
+   {
+    "kind": "button",
+    "x": 379,
+    "y": 377,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "lobby_room_info": {
+  "x": 248,
+  "y": 107,
+  "w": 303,
+  "h": 385,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Lobby/Dlg_LB-RoomInfo8"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 74,
+    "text": "Người chơi",
+    "font_size": 11,
+    "font_color": "#ffff88"
+   },
+   {
+    "kind": "label",
+    "x": 212,
+    "y": 74,
+    "text": "Cấp",
+    "font_size": 11,
+    "font_color": "#ffff88"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 100,
+    "id": "ri_p1",
+    "text": "[Chỗ trống]",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 216,
+    "y": 100,
+    "id": "ri_lv1",
+    "text": "-",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 128,
+    "id": "ri_p2",
+    "text": "[Chỗ trống]",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 216,
+    "y": 128,
+    "id": "ri_lv2",
+    "text": "-",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 156,
+    "id": "ri_p3",
+    "text": "[Chỗ trống]",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 216,
+    "y": 156,
+    "id": "ri_lv3",
+    "text": "-",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 184,
+    "id": "ri_p4",
+    "text": "[Chỗ trống]",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 216,
+    "y": 184,
+    "id": "ri_lv4",
+    "text": "-",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 212,
+    "id": "ri_p5",
+    "text": "[Chỗ trống]",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 216,
+    "y": 212,
+    "id": "ri_lv5",
+    "text": "-",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 240,
+    "id": "ri_p6",
+    "text": "[Chỗ trống]",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 216,
+    "y": 240,
+    "id": "ri_lv6",
+    "text": "-",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 268,
+    "id": "ri_p7",
+    "text": "[Chỗ trống]",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 216,
+    "y": 268,
+    "id": "ri_lv7",
+    "text": "-",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "label",
+    "x": 32,
+    "y": 296,
+    "id": "ri_p8",
+    "text": "[Chỗ trống]",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 216,
+    "y": 296,
+    "id": "ri_lv8",
+    "text": "-",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "button",
+    "x": 101,
+    "y": 339,
+    "sprite": "Etc/BtClose",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "select_map": {
+  "x": 130,
+  "y": 54,
+  "w": 539,
+  "h": 492,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Prepare/Dlg_PRE-SelMap_Renew"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 67,
+    "id": "map_title",
+    "text": "Camp08",
+    "font_size": 12,
+    "font_color": "#ffff77"
+   },
+   {
+    "kind": "image",
+    "x": 26,
+    "y": 92,
+    "sprite": "Etc/Camp08_mm",
+    "id": "map_preview"
+   },
+   {
+    "kind": "label",
+    "x": 30,
+    "y": 227,
+    "text": "Kích thước",
+    "font_size": 10,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 92,
+    "y": 227,
+    "id": "map_dim",
+    "text": "15 x 13",
+    "font_size": 10,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 30,
+    "y": 246,
+    "text": "Người chơi",
+    "font_size": 10,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 92,
+    "y": 246,
+    "id": "map_spawns",
+    "text": "8",
+    "font_size": 10,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 30,
+    "y": 265,
+    "text": "Độ khó",
+    "font_size": 10,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 30,
+    "y": 284,
+    "text": "Chế độ",
+    "font_size": 10,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 92,
+    "y": 284,
+    "text": "Thường",
+    "font_size": 10,
+    "font_color": "#ffffff",
+    "id": "map_mode"
+   },
+   {
+    "kind": "label",
+    "x": 30,
+    "y": 310,
+    "id": "map_desc",
+    "text": "Cuộn chuột hoặc kéo thanh cuộn bên phải để chọn bản đồ.",
+    "w": 142,
+    "h": 100,
+    "font_size": 10,
+    "font_color": "#d8f4ff",
+    "wrap": true
+   },
+   {
+    "kind": "text_button",
+    "x": 196,
+    "y": 74,
+    "w": 178,
+    "h": 22,
+    "id": "map_theme_btn",
+    "text": "Chủ đề: Tất cả",
+    "font_size": 11,
+    "font_color": "#ffe866",
+    "action": "dialog:map_cycle_theme"
+   },
+   {
+    "kind": "text_button",
+    "x": 382,
+    "y": 74,
+    "w": 136,
+    "h": 22,
+    "id": "map_show_all",
+    "text": "○ Hiện tất cả",
+    "font_size": 11,
+    "font_color": "#aaffff",
+    "action": "dialog:map_toggle_all"
+   },
+   {
+    "kind": "label",
+    "x": 204,
+    "y": 99,
+    "text": "Bản đồ - Cuộn chuột / Kéo thanh cuộn",
+    "font_size": 11,
+    "font_color": "#aaffff",
+    "id": "map_list_header"
+   },
+   {
+    "kind": "item_list",
+    "x": 194,
+    "y": 120,
+    "id": "map_list",
+    "w": 324,
+    "h": 304
+   },
+   {
+    "kind": "button",
+    "x": 160,
+    "y": 446,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:submit_select_map"
+   },
+   {
+    "kind": "button",
+    "x": 277,
+    "y": 446,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "room_info": {
+  "x": 175,
+  "y": 82,
+  "w": 450,
+  "h": 436,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Prepare/Dlg_PRE-RoominfoRenew"
+   },
+   {
+    "kind": "label",
+    "x": 44,
+    "y": 78,
+    "text": "Chế độ chơi: Thường (Bom nước cổ điển)",
+    "font_size": 12,
+    "font_color": "#ffffff",
+    "id": "ri_mode_header"
+   },
+   {
+    "kind": "label",
+    "x": 44,
+    "y": 106,
+    "text": "Số người tối đa: 8 người (LAN Offline)",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 44,
+    "y": 283,
+    "text": "Tên phòng",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 44,
+    "y": 311,
+    "text": "Chế độ",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 44,
+    "y": 338,
+    "text": "Mật khẩu",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 282,
+    "id": "ri_title",
+    "w": 271,
+    "h": 19,
+    "text": "Cang Xau Cang Tot"
+   },
+   {
+    "kind": "label",
+    "x": 138,
+    "y": 311,
+    "text": "Đấu đội / Tự do",
+    "font_size": 11,
+    "font_color": "#ffffff",
+    "id": "ri_mode_lbl"
+   },
+   {
+    "kind": "edit",
+    "x": 136,
+    "y": 338,
+    "id": "ri_pw",
+    "w": 130,
+    "h": 19,
+    "text": "",
+    "secret": true,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "button",
+    "x": 116,
+    "y": 383,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:submit_room_info"
+   },
+   {
+    "kind": "button",
+    "x": 232,
+    "y": 383,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "option": {
+  "x": 197,
+  "y": 55,
+  "w": 406,
+  "h": 489,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Etc/Dlg_Option"
+   },
+   {
+    "kind": "label",
+    "x": 38,
+    "y": 80,
+    "text": "Nhạc nền (BGM)",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "label",
+    "x": 38,
+    "y": 107,
+    "text": "Âm thanh (SFX)",
+    "font_size": 11,
+    "font_color": "#ffffff"
+   },
+   {
+    "kind": "slider",
+    "x": 195,
+    "y": 79,
+    "id": "opt_bgm",
+    "w": 166,
+    "h": 18,
+    "value": 1.0
+   },
+   {
+    "kind": "slider",
+    "x": 195,
+    "y": 106,
+    "id": "opt_sfx",
+    "w": 166,
+    "h": 18,
+    "value": 1.0
+   },
+   {
+    "kind": "label",
+    "x": 46,
+    "y": 185,
+    "text": "Hiển thị tên nhân vật",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 46,
+    "y": 212,
+    "text": "Hiển thị bóng nước",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 46,
+    "y": 239,
+    "text": "Bật khung chat",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 46,
+    "y": 266,
+    "text": "Hiệu ứng đặc biệt",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 46,
+    "y": 293,
+    "text": "Phím tắt F1: Hướng dẫn",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "label",
+    "x": 46,
+    "y": 320,
+    "text": "Phím tắt F10: Lựa chọn",
+    "font_size": 11,
+    "font_color": "#aaffff"
+   },
+   {
+    "kind": "checkbox",
+    "x": 180,
+    "y": 184,
+    "id": "opt_names",
+    "checked": true
+   },
+   {
+    "kind": "checkbox",
+    "x": 180,
+    "y": 211,
+    "id": "opt_shadow",
+    "checked": true
+   },
+   {
+    "kind": "checkbox",
+    "x": 180,
+    "y": 238,
+    "id": "opt_chat",
+    "checked": true
+   },
+   {
+    "kind": "checkbox",
+    "x": 180,
+    "y": 265,
+    "id": "opt_fx",
+    "checked": true
+   },
+   {
+    "kind": "button",
+    "x": 94,
+    "y": 443,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:close"
+   },
+   {
+    "kind": "button",
+    "x": 210,
+    "y": 443,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "tutorial": {
+  "x": 102,
+  "y": 62,
+  "w": 596,
+  "h": 476,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Tutorial/Tutorialback"
+   },
+   {
+    "kind": "image",
+    "x": 119,
+    "y": 41,
+    "sprite": "Tutorial/01",
+    "id": "tut_page"
+   },
+   {
+    "kind": "label",
+    "x": 128,
+    "y": 439,
+    "id": "tut_counter",
+    "text": "Trang 1 / 20",
+    "font_size": 12,
+    "font_color": "#003875"
+   },
+   {
+    "kind": "button",
+    "x": 319,
+    "y": 435,
+    "sprite": "Tutorial/front-button",
+    "action": "dialog:tut_prev"
+   },
+   {
+    "kind": "button",
+    "x": 367,
+    "y": 435,
+    "sprite": "Tutorial/back-button",
+    "action": "dialog:tut_next"
+   },
+   {
+    "kind": "button",
+    "x": 415,
+    "y": 435,
+    "sprite": "Tutorial/end-button",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   },
+   {
+    "kind": "button",
+    "x": 31,
+    "y": 76,
+    "sprite": "Tutorial/left-01",
+    "action": "dialog:tut_chapter:0"
+   },
+   {
+    "kind": "button",
+    "x": 31,
+    "y": 100,
+    "sprite": "Tutorial/left-02",
+    "action": "dialog:tut_chapter:1"
+   },
+   {
+    "kind": "button",
+    "x": 31,
+    "y": 124,
+    "sprite": "Tutorial/left-03",
+    "action": "dialog:tut_chapter:2"
+   },
+   {
+    "kind": "button",
+    "x": 31,
+    "y": 148,
+    "sprite": "Tutorial/left-04",
+    "action": "dialog:tut_chapter:3"
+   },
+   {
+    "kind": "button",
+    "x": 31,
+    "y": 172,
+    "sprite": "Tutorial/left-05",
+    "action": "dialog:tut_chapter:4"
+   },
+   {
+    "kind": "button",
+    "x": 31,
+    "y": 196,
+    "sprite": "Tutorial/left-06",
+    "action": "dialog:tut_chapter:5"
+   },
+   {
+    "kind": "button",
+    "x": 31,
+    "y": 220,
+    "sprite": "Tutorial/left-07",
+    "action": "dialog:tut_chapter:6"
+   },
+   {
+    "kind": "button",
+    "x": 31,
+    "y": 244,
+    "sprite": "Tutorial/left-08",
+    "action": "dialog:tut_chapter:7"
+   }
+  ]
+ },
+ "menu": {
+  "x": 18,
+  "y": 326,
+  "w": 117,
+  "h": 246,
+  "modal": false,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "GlobalUI/MenuDlg_Back"
+   },
+   {
+    "kind": "label",
+    "x": 14,
+    "y": 10,
+    "text": "TÙY CHỌN",
+    "font_size": 11,
+    "font_color": "#ffff77"
+   },
+   {
+    "kind": "text_button",
+    "x": 6,
+    "y": 42,
+    "w": 105,
+    "h": 28,
+    "text": "Lựa chọn (F10)",
+    "action": "dialog:open:option"
+   },
+   {
+    "kind": "text_button",
+    "x": 6,
+    "y": 76,
+    "w": 105,
+    "h": 28,
+    "text": "Hướng dẫn (F1)",
+    "action": "dialog:open:tutorial"
+   },
+   {
+    "kind": "text_button",
+    "x": 6,
+    "y": 118,
+    "w": 105,
+    "h": 28,
+    "text": "Xem bản đồ (M)",
+    "action": "goto:map_view"
+   },
+   {
+    "kind": "text_button",
+    "x": 6,
+    "y": 152,
+    "w": 105,
+    "h": 28,
+    "text": "Thông báo",
+    "action": "dialog:notice:Boom Online LAN Offline (Godot 4). Chưa kết nối server."
+   },
+   {
+    "kind": "text_button",
+    "x": 6,
+    "y": 202,
+    "w": 105,
+    "h": 28,
+    "text": "Thoát game",
+    "font_color": "#ffaaaa",
+    "action": "quit"
+   }
+  ]
+ },
+ "room_password": {
+  "x": 239,
+  "y": 222,
+  "w": 322,
+  "h": 156,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Lobby/Dlg_LB-RoomPw"
+   },
+   {
+    "kind": "label",
+    "x": 28,
+    "y": 54,
+    "text": "Nhập mật khẩu phòng:",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "edit",
+    "x": 28,
+    "y": 76,
+    "id": "join_pw",
+    "w": 266,
+    "h": 20,
+    "text": "",
+    "secret": true
+   },
+   {
+    "kind": "button",
+    "x": 52,
+    "y": 112,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:submit_room_password"
+   },
+   {
+    "kind": "button",
+    "x": 168,
+    "y": 112,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "create_room_stage_clear": {
+  "x": 193,
+  "y": 86,
+  "w": 414,
+  "h": 428,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Lobby/Dlg_LB-MMCreate"
+   },
+   {
+    "kind": "label",
+    "x": 40,
+    "y": 276,
+    "text": "Tên phòng",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 40,
+    "y": 304,
+    "text": "Mật khẩu",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "edit",
+    "x": 130,
+    "y": 275,
+    "id": "room_name",
+    "w": 240,
+    "h": 19,
+    "text": "Săn Quái Vật"
+   },
+   {
+    "kind": "edit",
+    "x": 130,
+    "y": 303,
+    "id": "room_pw",
+    "w": 180,
+    "h": 19,
+    "text": ""
+   },
+   {
+    "kind": "checkbox",
+    "x": 318,
+    "y": 302,
+    "id": "room_lock",
+    "checked": false
+   },
+   {
+    "kind": "button",
+    "x": 98,
+    "y": 374,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:submit_create_room_stage_clear"
+   },
+   {
+    "kind": "button",
+    "x": 214,
+    "y": 374,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ },
+ "create_room_ladder": {
+  "x": 193,
+  "y": 180,
+  "w": 414,
+  "h": 240,
+  "modal": true,
+  "elements": [
+   {
+    "kind": "image",
+    "x": 0,
+    "y": 0,
+    "sprite": "Lobby/Dlg_LB-Create_Ladder"
+   },
+   {
+    "kind": "label",
+    "x": 40,
+    "y": 78,
+    "text": "Tên phòng",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "label",
+    "x": 40,
+    "y": 106,
+    "text": "Mật khẩu",
+    "font_size": 11,
+    "font_color": "#e0ffff"
+   },
+   {
+    "kind": "edit",
+    "x": 130,
+    "y": 77,
+    "id": "room_name",
+    "w": 240,
+    "h": 19,
+    "text": "Đấu Hạng"
+   },
+   {
+    "kind": "edit",
+    "x": 130,
+    "y": 105,
+    "id": "room_pw",
+    "w": 180,
+    "h": 19,
+    "text": ""
+   },
+   {
+    "kind": "checkbox",
+    "x": 318,
+    "y": 104,
+    "id": "room_lock",
+    "checked": false
+   },
+   {
+    "kind": "button",
+    "x": 98,
+    "y": 186,
+    "sprite": "Etc/BtOk",
+    "action": "dialog:submit_create_room_ladder"
+   },
+   {
+    "kind": "button",
+    "x": 214,
+    "y": 186,
+    "sprite": "Etc/BtCancel",
+    "action": "dialog:close",
+    "sfx_click": "Bt_c_Cancle"
+   }
+  ]
+ }
+}

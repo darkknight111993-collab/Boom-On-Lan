@@ -1,0 +1,584 @@
+{
+ "bgm": "StageSquare",
+ "elements": [
+  {
+   "kind": "jpg",
+   "x": 0,
+   "y": 0,
+   "src": "CAStageRenew 800x600 background",
+   "sprite": "Lobby/CAStageRenew"
+  },
+  {
+   "kind": "button",
+   "x": 218,
+   "y": 48,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) exact 136x63 recess (218, 48)",
+   "sprite": "Lobby/LB_Bt_T_CreateRenew",
+   "action": "lobby:create_room"
+  },
+  {
+   "kind": "button",
+   "x": 359,
+   "y": 48,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) exact recess (359, 48)",
+   "sprite": "Lobby/LB_Bt_T_QuickJoinRenew",
+   "action": "goto:prepare"
+  },
+  {
+   "kind": "button",
+   "x": 488,
+   "y": 60,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) GameType (488, 60)",
+   "sprite": "Lobby/LB_Bt_T_GameTypeRenew",
+   "action": "lobby:cycle_mode_filter"
+  },
+  {
+   "kind": "button",
+   "x": 571,
+   "y": 64,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) ShowAll (571, 64)",
+   "sprite": "Lobby/LB_Bt_T_ShowAllRenew",
+   "action": "lobby:show_all"
+  },
+  {
+   "kind": "button",
+   "x": 674,
+   "y": 64,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) Practice -> Tutorial (674, 64)",
+   "sprite": "Lobby/LB_Bt_T_PracticeRenew",
+   "action": "dialog:tutorial"
+  },
+  {
+   "kind": "label",
+   "x": 68,
+   "y": 205,
+   "src": "Left profile box",
+   "id": "Nick",
+   "text": "BazziPro",
+   "font_size": 12,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "label",
+   "x": 38,
+   "y": 232,
+   "src": "Left profile stats",
+   "text": "Cấp 15   69.5%",
+   "font_size": 10,
+   "font_color": "#ffffaa",
+   "id": "ProfileStats"
+  },
+  {
+   "kind": "button",
+   "x": 21,
+   "y": 255,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) All Tab (81x22)",
+   "sprite": "Lobby/LB_Bt_All",
+   "action": "unsupported"
+  },
+  {
+   "kind": "button",
+   "x": 102,
+   "y": 255,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) Guild Tab (80x22)",
+   "sprite": "Lobby/LB_Bt_Guild",
+   "action": "unsupported"
+  },
+  {
+   "kind": "button",
+   "x": 56,
+   "y": 524,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) User list prev",
+   "sprite": "Lobby/LB_Bt_Left02",
+   "action": "unsupported"
+  },
+  {
+   "kind": "button",
+   "x": 103,
+   "y": 524,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) User list next",
+   "sprite": "Lobby/LB_Bt_Right02",
+   "action": "unsupported"
+  },
+  {
+   "kind": "button",
+   "x": 214,
+   "y": 121,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) exact recess (draw 218/494, 125+84r)",
+   "sprite": "Lobby/LB_Bt_SessionSlot",
+   "action": "lobby:join_slot:0",
+   "id": "room_slot_0"
+  },
+  {
+   "kind": "label",
+   "x": 284,
+   "y": 135,
+   "src": "Room num",
+   "text": "S02",
+   "font_size": 12,
+   "font_color": "#ffff55",
+   "id": "room_num_0"
+  },
+  {
+   "kind": "label",
+   "x": 324,
+   "y": 135,
+   "src": "Room title",
+   "text": "Càng Xấu Càng Tốt",
+   "font_size": 11,
+   "font_color": "#ffffff",
+   "id": "room_title_0"
+  },
+  {
+   "kind": "label",
+   "x": 284,
+   "y": 169,
+   "src": "Room state",
+   "text": "WAITING",
+   "font_size": 11,
+   "font_color": "#ffaa33",
+   "id": "room_state_0"
+  },
+  {
+   "kind": "label",
+   "x": 420,
+   "y": 173,
+   "src": "Room count",
+   "text": "1/8",
+   "font_size": 11,
+   "font_color": "#aaffff",
+   "id": "room_count_0"
+  },
+  {
+   "kind": "button",
+   "x": 456,
+   "y": 170,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) (+242, +49)",
+   "sprite": "Lobby/LB_Bt_RoomInfo",
+   "action": "lobby:room_info:0",
+   "id": "room_info_0"
+  },
+  {
+   "kind": "button",
+   "x": 490,
+   "y": 121,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) exact recess (draw 218/494, 125+84r)",
+   "sprite": "Lobby/LB_Bt_SessionSlot",
+   "action": "lobby:join_slot:1",
+   "id": "room_slot_1"
+  },
+  {
+   "kind": "label",
+   "x": 560,
+   "y": 135,
+   "src": "Room num",
+   "text": "S08",
+   "font_size": 12,
+   "font_color": "#ffff55",
+   "id": "room_num_1"
+  },
+  {
+   "kind": "label",
+   "x": 600,
+   "y": 135,
+   "src": "Room title",
+   "text": "Pro BnB [Giao lưu]",
+   "font_size": 11,
+   "font_color": "#ffffff",
+   "id": "room_title_1"
+  },
+  {
+   "kind": "label",
+   "x": 560,
+   "y": 169,
+   "src": "Room state",
+   "text": "WAITING",
+   "font_size": 11,
+   "font_color": "#ffaa33",
+   "id": "room_state_1"
+  },
+  {
+   "kind": "label",
+   "x": 696,
+   "y": 173,
+   "src": "Room count",
+   "text": "2/8",
+   "font_size": 11,
+   "font_color": "#aaffff",
+   "id": "room_count_1"
+  },
+  {
+   "kind": "button",
+   "x": 732,
+   "y": 170,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) (+242, +49)",
+   "sprite": "Lobby/LB_Bt_RoomInfo",
+   "action": "lobby:room_info:1",
+   "id": "room_info_1"
+  },
+  {
+   "kind": "button",
+   "x": 214,
+   "y": 205,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) exact recess (draw 218/494, 125+84r)",
+   "sprite": "Lobby/LB_Bt_SessionSlot",
+   "action": "lobby:join_slot:2",
+   "id": "room_slot_2"
+  },
+  {
+   "kind": "label",
+   "x": 284,
+   "y": 219,
+   "src": "Room num",
+   "text": "S22",
+   "font_size": 12,
+   "font_color": "#ffff55",
+   "id": "room_num_2"
+  },
+  {
+   "kind": "label",
+   "x": 324,
+   "y": 219,
+   "src": "Room title",
+   "text": "Post 3 t? 2c 2f (4cs)",
+   "font_size": 11,
+   "font_color": "#ffffff",
+   "id": "room_title_2"
+  },
+  {
+   "kind": "label",
+   "x": 284,
+   "y": 253,
+   "src": "Room state",
+   "text": "WAITING",
+   "font_size": 11,
+   "font_color": "#ffaa33",
+   "id": "room_state_2"
+  },
+  {
+   "kind": "label",
+   "x": 420,
+   "y": 257,
+   "src": "Room count",
+   "text": "3/8",
+   "font_size": 11,
+   "font_color": "#aaffff",
+   "id": "room_count_2"
+  },
+  {
+   "kind": "button",
+   "x": 456,
+   "y": 254,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) (+242, +49)",
+   "sprite": "Lobby/LB_Bt_RoomInfo",
+   "action": "lobby:room_info:2",
+   "id": "room_info_2"
+  },
+  {
+   "kind": "button",
+   "x": 490,
+   "y": 205,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) exact recess (draw 218/494, 125+84r)",
+   "sprite": "Lobby/LB_Bt_SessionSlot",
+   "action": "lobby:join_slot:3",
+   "id": "room_slot_3"
+  },
+  {
+   "kind": "label",
+   "x": 560,
+   "y": 219,
+   "src": "Room num",
+   "text": "S35",
+   "font_size": 12,
+   "font_color": "#ffff55",
+   "id": "room_num_3"
+  },
+  {
+   "kind": "label",
+   "x": 600,
+   "y": 219,
+   "src": "Room title",
+   "text": "Team 2 vs 2",
+   "font_size": 11,
+   "font_color": "#ffffff",
+   "id": "room_title_3"
+  },
+  {
+   "kind": "label",
+   "x": 560,
+   "y": 253,
+   "src": "Room state",
+   "text": "WAITING",
+   "font_size": 11,
+   "font_color": "#ffaa33",
+   "id": "room_state_3"
+  },
+  {
+   "kind": "label",
+   "x": 696,
+   "y": 257,
+   "src": "Room count",
+   "text": "4/8",
+   "font_size": 11,
+   "font_color": "#aaffff",
+   "id": "room_count_3"
+  },
+  {
+   "kind": "button",
+   "x": 732,
+   "y": 254,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) (+242, +49)",
+   "sprite": "Lobby/LB_Bt_RoomInfo",
+   "action": "lobby:room_info:3",
+   "id": "room_info_3"
+  },
+  {
+   "kind": "button",
+   "x": 214,
+   "y": 289,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) exact recess (draw 218/494, 125+84r)",
+   "sprite": "Lobby/LB_Bt_SessionSlot",
+   "action": "lobby:join_slot:4",
+   "id": "room_slot_4"
+  },
+  {
+   "kind": "label",
+   "x": 284,
+   "y": 303,
+   "src": "Room num",
+   "text": "S37",
+   "font_size": 12,
+   "font_color": "#ffff55",
+   "id": "room_num_4"
+  },
+  {
+   "kind": "label",
+   "x": 324,
+   "y": 303,
+   "src": "Room title",
+   "text": "Chiến thôi anh em",
+   "font_size": 11,
+   "font_color": "#ffffff",
+   "id": "room_title_4"
+  },
+  {
+   "kind": "label",
+   "x": 284,
+   "y": 337,
+   "src": "Room state",
+   "text": "WAITING",
+   "font_size": 11,
+   "font_color": "#ffaa33",
+   "id": "room_state_4"
+  },
+  {
+   "kind": "label",
+   "x": 420,
+   "y": 341,
+   "src": "Room count",
+   "text": "1/8",
+   "font_size": 11,
+   "font_color": "#aaffff",
+   "id": "room_count_4"
+  },
+  {
+   "kind": "button",
+   "x": 456,
+   "y": 338,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) (+242, +49)",
+   "sprite": "Lobby/LB_Bt_RoomInfo",
+   "action": "lobby:room_info:4",
+   "id": "room_info_4"
+  },
+  {
+   "kind": "button",
+   "x": 490,
+   "y": 289,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) exact recess (draw 218/494, 125+84r)",
+   "sprite": "Lobby/LB_Bt_SessionSlot",
+   "action": "lobby:join_slot:5",
+   "id": "room_slot_5"
+  },
+  {
+   "kind": "label",
+   "x": 560,
+   "y": 303,
+   "src": "Room num",
+   "text": "051",
+   "font_size": 12,
+   "font_color": "#ffff55",
+   "id": "room_num_5"
+  },
+  {
+   "kind": "label",
+   "x": 600,
+   "y": 303,
+   "src": "Room title",
+   "text": "Solo 1-1",
+   "font_size": 11,
+   "font_color": "#ffffff",
+   "id": "room_title_5"
+  },
+  {
+   "kind": "label",
+   "x": 560,
+   "y": 337,
+   "src": "Room state",
+   "text": "WAITING",
+   "font_size": 11,
+   "font_color": "#ffaa33",
+   "id": "room_state_5"
+  },
+  {
+   "kind": "label",
+   "x": 696,
+   "y": 341,
+   "src": "Room count",
+   "text": "2/8",
+   "font_size": 11,
+   "font_color": "#aaffff",
+   "id": "room_count_5"
+  },
+  {
+   "kind": "button",
+   "x": 732,
+   "y": 338,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) (+242, +49)",
+   "sprite": "Lobby/LB_Bt_RoomInfo",
+   "action": "lobby:room_info:5",
+   "id": "room_info_5"
+  },
+  {
+   "kind": "button",
+   "x": 431,
+   "y": 376,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) (431, 376)",
+   "sprite": "Lobby/LB_Bt_Left01",
+   "action": "unsupported"
+  },
+  {
+   "kind": "button",
+   "x": 494,
+   "y": 376,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) (494, 376)",
+   "sprite": "Lobby/LB_Bt_Right01",
+   "action": "unsupported"
+  },
+  {
+   "kind": "edit",
+   "x": 362,
+   "y": 527,
+   "src": "CAStageRenew chat recess (359, 526)",
+   "id": "chat_input",
+   "w": 352,
+   "h": 21,
+   "text": "Nhập nội dung trò chuyện...",
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "button",
+   "x": 722,
+   "y": 524,
+   "src": "CLobbyStage (AnalizeTWClient/LobbyStage.ts + Lobby/CAStageRenew recesses) Shout btn beside chat",
+   "sprite": "Etc/BtSpeaker_Speaker",
+   "action": "unsupported"
+  },
+  {
+   "kind": "color_rect",
+   "x": 0,
+   "y": 572,
+   "src": "CGlobalButtonDlg bar @y=572",
+   "w": 800,
+   "h": 28,
+   "color": "#003875"
+  },
+  {
+   "kind": "button",
+   "x": 18,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (72x24)",
+   "sprite": "GlobalUI/BtMenu",
+   "action": "dialog:menu"
+  },
+  {
+   "kind": "button",
+   "x": 104,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (31x24)",
+   "sprite": "GlobalUI/BtBack",
+   "action": "goto:select_server"
+  },
+  {
+   "kind": "button",
+   "x": 147,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (66x24)",
+   "sprite": "GlobalUI/BtShop",
+   "action": "shop"
+  },
+  {
+   "kind": "button",
+   "x": 221,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (69x24)",
+   "sprite": "GlobalUI/BtSquare",
+   "action": "square"
+  },
+  {
+   "kind": "button",
+   "x": 298,
+   "y": 575,
+   "src": "GlobalUI taskbar (31x24)",
+   "sprite": "GlobalUI/BtMessenger",
+   "action": "messenger"
+  },
+  {
+   "kind": "button",
+   "x": 468,
+   "y": 576,
+   "src": "GameStage/SelectServerStage.png match (77x22)",
+   "sprite": "GlobalUI/BtGachapon",
+   "action": "gachapon"
+  },
+  {
+   "kind": "button",
+   "x": 554,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (63x24)",
+   "sprite": "GlobalUI/BtQuest",
+   "action": "quest"
+  },
+  {
+   "kind": "button",
+   "x": 626,
+   "y": 575,
+   "src": "GlobalUI taskbar (67x24)",
+   "sprite": "GlobalUI/BtMyitem",
+   "action": "myitem"
+  },
+  {
+   "kind": "button",
+   "x": 706,
+   "y": 575,
+   "src": "GlobalUI taskbar (31x24)",
+   "sprite": "GlobalUI/BtMyInfo",
+   "action": "dialog:option"
+  },
+  {
+   "kind": "button",
+   "x": 752,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (31x24)",
+   "sprite": "GlobalUI/BtExit",
+   "action": "quit"
+  },
+  {
+   "kind": "label",
+   "x": 20,
+   "y": 10,
+   "src": "Notice",
+   "id": "Notice",
+   "text": ""
+  }
+ ]
+}

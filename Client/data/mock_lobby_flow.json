@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "description": "Mock end-to-end data for BomOnLan offline/LAN flow: Login -> Select Server/Channel -> Lobby -> Prepare Room -> Game Stage.",
+  "accounts": [
+    {
+      "id": 1,
+      "username": "player1",
+      "password_hash": "admin",
+      "nickname": "BazziPro",
+      "level": 15,
+      "exp": 4250,
+      "lucci": 50000,
+      "cash": 10000,
+      "wins": 32,
+      "losses": 14,
+      "draws": 5,
+      "selected_char": "Character/C00",
+      "equipped": {
+        "hat": "",
+        "cloth": "",
+        "face": "",
+        "bomb_skin": "Bomb/Bomb00",
+        "mount": "",
+        "id_deco": "emote/IDDeco/IDDeco_C001",
+        "fanfare": "emote/Fanfare/Fanfare000",
+        "active_item": "Item/ItemNeedle"
+      },
+      "inventory": [
+        { "item_code": "Item/ItemNeedle", "category": "consumable", "quantity": 50 },
+        { "item_code": "Item/ItemShield", "category": "consumable", "quantity": 20 },
+        { "item_code": "Item/ItemFakeHedgehog", "category": "consumable", "quantity": 10 },
+        { "item_code": "Item/ItemSuperHedgehog", "category": "consumable", "quantity": 5 }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "player2",
+      "password_hash": "123456",
+      "nickname": "DaoMaster",
+      "level": 12,
+      "exp": 3100,
+      "lucci": 35000,
+      "cash": 5000,
+      "wins": 20,
+      "losses": 8,
+      "draws": 2,
+      "selected_char": "Character/C01",
+      "equipped": {
+        "hat": "",
+        "cloth": "",
+        "face": "",
+        "bomb_skin": "Bomb/Bomb00",
+        "mount": "",
+        "id_deco": "emote/IDDeco/IDDeco_C001",
+        "fanfare": "emote/Fanfare/Fanfare000",
+        "active_item": "Item/ItemNeedle"
+      },
+      "inventory": [
+        { "item_code": "Item/ItemNeedle", "category": "consumable", "quantity": 30 }
+      ]
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "password_hash": "admin",
+      "nickname": "CrazyPro",
+      "level": 25,
+      "exp": 9999,
+      "lucci": 999999,
+      "cash": 99999,
+      "wins": 88,
+      "losses": 12,
+      "draws": 7,
+      "selected_char": "Character/C00",
+      "equipped": {
+        "hat": "",
+        "cloth": "",
+        "face": "",
+        "bomb_skin": "Bomb/Bomb00",
+        "mount": "Ship/Airship",
+        "id_deco": "emote/IDDeco/IDDeco_C001",
+        "fanfare": "emote/Fanfare/Fanfare000",
+        "active_item": "Item/ItemNeedle"
+      },
+      "inventory": [
+        { "item_code": "Item/ItemNeedle", "category": "consumable", "quantity": 99 },
+        { "item_code": "Item/ItemAirship", "category": "consumable", "quantity": 10 }
+      ]
+    }
+  ],
+  "servers": [
+    {
+      "id": "srv_hn",
+      "name_vn": "Hà Nội - Làng Boom",
+      "host": "127.0.0.1",
+      "port": 42425,
+      "status": "online",
+      "channels": [
+        {
+          "id": "ch_hn_01",
+          "index": 1,
+          "name_vn": "Tự Do 01",
+          "type": "free",
+          "lobby_strategy": "normal",
+          "create_room_policy": {
+            "can_create": true,
+            "allow_password": true,
+            "allow_team_arrange": true,
+            "default_component_id": 0,
+            "default_map": "Camp08"
+          },
+          "min_level": 1,
+          "max_level": 999,
+          "population": 12,
+          "max_population": 200,
+          "allowed_component_ids": [0, 10, 11, 12, 13, 14, 16],
+          "special_component_ids": [18, 19, 20, 27]
+        },
+        {
+          "id": "ch_hn_02",
+          "index": 2,
+          "name_vn": "Săn Quái 01",
+          "type": "stage_clear",
+          "lobby_strategy": "stage_clear",
+          "create_room_policy": {
+            "can_create": true,
+            "allow_password": true,
+            "allow_team_arrange": false,
+            "default_component_id": 14,
+            "default_map": "Village10"
+          },
+          "min_level": 1,
+          "max_level": 999,
+          "population": 5,
+          "max_population": 200,
+          "allowed_component_ids": [14],
+          "special_component_ids": []
+        },
+        {
+          "id": "ch_hn_03",
+          "index": 3,
+          "name_vn": "Đấu Boss RPG",
+          "type": "rpg",
+          "lobby_strategy": "rpg",
+          "create_room_policy": {
+            "can_create": true,
+            "auto_create": true,
+            "allow_password": false,
+            "allow_team_arrange": false,
+            "default_component_id": 17,
+            "default_map": "Camp08"
+          },
+          "min_level": 1,
+          "max_level": 999,
+          "population": 8,
+          "max_population": 200,
+          "allowed_component_ids": [17],
+          "special_component_ids": []
+        }
+      ]
+    },
+    {
+      "id": "srv_hcm",
+      "name_vn": "TP.HCM - Cao Thủ",
+      "host": "127.0.0.1",
+      "port": 42426,
+      "status": "online",
+      "channels": [
+        {
+          "id": "ch_hcm_01",
+          "index": 1,
+          "name_vn": "Đấu Hạng 01",
+          "type": "ladder",
+          "lobby_strategy": "ladder",
+          "create_room_policy": {
+            "can_create": true,
+            "allow_password": true,
+            "allow_team_arrange": false,
+            "default_component_id": 0,
+            "default_map": "Camp08"
+          },
+          "min_level": 10,
+          "max_level": 999,
+          "population": 18,
+          "max_population": 200,
+          "allowed_component_ids": [0],
+          "special_component_ids": []
+        },
+        {
+          "id": "ch_hcm_02",
+          "index": 2,
+          "name_vn": "Chuỗi Thắng",
+          "type": "winning",
+          "lobby_strategy": "winning",
+          "create_room_policy": {
+            "can_create": false,
+            "allow_password": false,
+            "allow_team_arrange": false,
+            "default_component_id": 0,
+            "default_map": "Camp08"
+          },
+          "min_level": 5,
+          "max_level": 999,
+          "population": 9,
+          "max_population": 200,
+          "allowed_component_ids": [0],
+          "special_component_ids": []
+        }
+      ]
+    }
+  ],
+  "lobby_users": [
+    { "user_id": 1, "nickname": "BazziPro", "level": 15, "channel_id": "ch_td_01", "status": "in_lobby" },
+    { "user_id": 2, "nickname": "DaoMaster", "level": 12, "channel_id": "ch_td_01", "status": "in_room", "room_id": 101 },
+    { "user_id": 3, "nickname": "CrazyPro", "level": 25, "channel_id": "ch_td_01", "status": "in_room", "room_id": 102 }
+  ],
+  "rooms": [
+    {
+      "room_id": 101,
+      "room_no": 1,
+      "channel_id": "ch_td_01",
+      "title": "Càng Xấu Càng Tốt",
+      "host_user_id": 1,
+      "status": "waiting",
+      "locked": false,
+      "password": "",
+      "mode_id": "normal",
+      "component_id": 0,
+      "map_code": "Camp08",
+      "max_players": 8,
+      "slots": [
+        {
+          "slot_idx": 0,
+          "state": "occupied",
+          "user_id": 1,
+          "nickname": "BazziPro",
+          "level": 15,
+          "is_host": true,
+          "is_ready": true,
+          "is_bot": false,
+          "char_code": "Character/C00",
+          "team_color_idx": 0
+        },
+        {
+          "slot_idx": 1,
+          "state": "occupied",
+          "user_id": 2,
+          "nickname": "DaoMaster",
+          "level": 12,
+          "is_host": false,
+          "is_ready": true,
+          "is_bot": true,
+          "char_code": "Character/C01",
+          "team_color_idx": 5
+        },
+        { "slot_idx": 2, "state": "open" },
+        { "slot_idx": 3, "state": "open" },
+        { "slot_idx": 4, "state": "open" },
+        { "slot_idx": 5, "state": "open" },
+        { "slot_idx": 6, "state": "closed" },
+        { "slot_idx": 7, "state": "closed" }
+      ]
+    },
+    {
+      "room_id": 102,
+      "room_no": 2,
+      "channel_id": "ch_td_01",
+      "title": "Test Nhím 1v1",
+      "host_user_id": 3,
+      "status": "waiting",
+      "locked": false,
+      "password": "",
+      "mode_id": "hedgehog",
+      "component_id": 11,
+      "map_code": "Village10",
+      "max_players": 8,
+      "slots": [
+        {
+          "slot_idx": 0,
+          "state": "occupied",
+          "user_id": 3,
+          "nickname": "CrazyPro",
+          "level": 25,
+          "is_host": true,
+          "is_ready": true,
+          "is_bot": false,
+          "char_code": "Character/C00",
+          "team_color_idx": 0
+        },
+        {
+          "slot_idx": 1,
+          "state": "occupied",
+          "user_id": -1,
+          "nickname": "Bot Marid",
+          "level": 10,
+          "is_host": false,
+          "is_ready": true,
+          "is_bot": true,
+          "char_code": "Character/C04",
+          "team_color_idx": 5
+        },
+        { "slot_idx": 2, "state": "open" },
+        { "slot_idx": 3, "state": "open" },
+        { "slot_idx": 4, "state": "closed" },
+        { "slot_idx": 5, "state": "closed" },
+        { "slot_idx": 6, "state": "closed" },
+        { "slot_idx": 7, "state": "closed" }
+      ]
+    },
+    {
+      "room_id": 103,
+      "room_no": 3,
+      "channel_id": "ch_td_01",
+      "title": "Phòng Kín (MK: 123)",
+      "host_user_id": 2,
+      "status": "waiting",
+      "locked": true,
+      "password": "123",
+      "mode_id": "normal",
+      "component_id": 0,
+      "map_code": "TestAirship01",
+      "max_players": 2,
+      "slots": [
+        {
+          "slot_idx": 0,
+          "state": "occupied",
+          "user_id": 2,
+          "nickname": "DaoMaster",
+          "level": 12,
+          "is_host": true,
+          "is_ready": true,
+          "is_bot": false,
+          "char_code": "Character/C01",
+          "team_color_idx": 0
+        },
+        { "slot_idx": 1, "state": "open" }
+      ]
+    }
+  ],
+  "match_start_payload": {
+    "room_id": 101,
+    "channel_id": "ch_td_01",
+    "mode_id": "normal",
+    "component_id": 0,
+    "map_code": "Camp08",
+    "time_limit_sec": 180,
+    "random_seed": 20261123,
+    "players": [
+      {
+        "slot_idx": 0,
+        "spawn_idx": 0,
+        "user_id": 1,
+        "nickname": "BazziPro",
+        "is_bot": false,
+        "char_code": "Character/C00",
+        "team_color_idx": 0,
+        "bomb_skin": "Bomb/Bomb00",
+        "initial_mount": ""
+      },
+      {
+        "slot_idx": 1,
+        "spawn_idx": 1,
+        "user_id": 2,
+        "nickname": "DaoMaster",
+        "is_bot": true,
+        "char_code": "Character/C01",
+        "team_color_idx": 5,
+        "bomb_skin": "Bomb/Bomb00",
+        "initial_mount": ""
+      }
+    ]
+  }
+}

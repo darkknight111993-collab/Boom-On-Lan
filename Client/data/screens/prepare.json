@@ -1,0 +1,770 @@
+{
+ "bgm": "Prepare",
+ "elements": [
+  {
+   "kind": "jpg",
+   "x": 0,
+   "y": 0,
+   "src": "CAStage_1 800x600 background",
+   "sprite": "Prepare/CAStage_1"
+  },
+  {
+   "kind": "label",
+   "x": 32,
+   "y": 63,
+   "src": "Room ID box",
+   "text": "119",
+   "font_size": 12,
+   "font_color": "#ffff55"
+  },
+  {
+   "kind": "label",
+   "x": 80,
+   "y": 63,
+   "src": "Room title",
+   "id": "RoomTitle",
+   "text": "Cang Xau Cang Tot",
+   "font_size": 12,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "button",
+   "x": 344,
+   "y": 61,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) exact match (344, 61)",
+   "sprite": "Prepare/PRE_Bt_Roominfo",
+   "action": "dialog:room_info"
+  },
+  {
+   "kind": "label",
+   "x": 36,
+   "y": 198,
+   "src": "Slot 0 nick",
+   "id": "Slot0Nick",
+   "text": "BazziPro",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "image",
+   "x": 30,
+   "y": 217,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) host badge frame=2",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 2
+  },
+  {
+   "kind": "image",
+   "x": 60,
+   "y": 167,
+   "src": "Slot 0 shadow",
+   "id": "Slot0Shadow",
+   "sprite": "Shadow/Shadow",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 48,
+   "y": 116,
+   "src": "Slot 0 char adjust",
+   "id": "Slot0CharAdjust",
+   "sprite": "Character/C00-Start_ALayerAdjust",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 48,
+   "y": 116,
+   "src": "Slot 0 char static",
+   "id": "Slot0CharStatic",
+   "sprite": "Character/C00-Start_ALayerStatic",
+   "frame": 0
+  },
+  {
+   "kind": "label",
+   "x": 142,
+   "y": 198,
+   "src": "Slot 1 nick",
+   "id": "Slot1Nick",
+   "text": "Bot Bazzi",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "image",
+   "x": 136,
+   "y": 217,
+   "src": "Slot 1 ready badge frame=1",
+   "id": "Slot1Badge",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 1
+  },
+  {
+   "kind": "image",
+   "x": 166,
+   "y": 167,
+   "src": "Slot 1 shadow",
+   "id": "Slot1Shadow",
+   "sprite": "Shadow/Shadow",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 154,
+   "y": 116,
+   "src": "Slot 1 char adjust",
+   "id": "Slot1CharAdjust",
+   "sprite": "Character/C01-Start_ALayerAdjust",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 154,
+   "y": 116,
+   "src": "Slot 1 char static",
+   "id": "Slot1CharStatic",
+   "sprite": "Character/C01-Start_ALayerStatic",
+   "frame": 0
+  },
+  {
+   "kind": "label",
+   "x": 248,
+   "y": 198,
+   "src": "Slot 2 nick",
+   "id": "Slot2Nick",
+   "text": "",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "image",
+   "x": 242,
+   "y": 217,
+   "src": "Slot 2 ready badge frame=1",
+   "id": "Slot2Badge",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 1
+  },
+  {
+   "kind": "image",
+   "x": 272,
+   "y": 167,
+   "src": "Slot 2 shadow",
+   "id": "Slot2Shadow",
+   "sprite": "Shadow/Shadow",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 260,
+   "y": 116,
+   "src": "Slot 2 char adjust",
+   "id": "Slot2CharAdjust",
+   "sprite": "Character/C00-Start_ALayerAdjust",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 260,
+   "y": 116,
+   "src": "Slot 2 char static",
+   "id": "Slot2CharStatic",
+   "sprite": "Character/C00-Start_ALayerStatic",
+   "frame": 0
+  },
+  {
+   "kind": "label",
+   "x": 354,
+   "y": 198,
+   "src": "Slot 3 nick",
+   "id": "Slot3Nick",
+   "text": "",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "image",
+   "x": 348,
+   "y": 217,
+   "src": "Slot 3 ready badge frame=1",
+   "id": "Slot3Badge",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 1
+  },
+  {
+   "kind": "image",
+   "x": 378,
+   "y": 167,
+   "src": "Slot 3 shadow",
+   "id": "Slot3Shadow",
+   "sprite": "Shadow/Shadow",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 366,
+   "y": 116,
+   "src": "Slot 3 char adjust",
+   "id": "Slot3CharAdjust",
+   "sprite": "Character/C00-Start_ALayerAdjust",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 366,
+   "y": 116,
+   "src": "Slot 3 char static",
+   "id": "Slot3CharStatic",
+   "sprite": "Character/C00-Start_ALayerStatic",
+   "frame": 0
+  },
+  {
+   "kind": "label",
+   "x": 36,
+   "y": 344,
+   "src": "Slot 4 nick",
+   "id": "Slot4Nick",
+   "text": "",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "image",
+   "x": 30,
+   "y": 363,
+   "src": "Slot 4 ready badge frame=1",
+   "id": "Slot4Badge",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 1
+  },
+  {
+   "kind": "image",
+   "x": 60,
+   "y": 313,
+   "src": "Slot 4 shadow",
+   "id": "Slot4Shadow",
+   "sprite": "Shadow/Shadow",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 48,
+   "y": 262,
+   "src": "Slot 4 char adjust",
+   "id": "Slot4CharAdjust",
+   "sprite": "Character/C00-Start_ALayerAdjust",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 48,
+   "y": 262,
+   "src": "Slot 4 char static",
+   "id": "Slot4CharStatic",
+   "sprite": "Character/C00-Start_ALayerStatic",
+   "frame": 0
+  },
+  {
+   "kind": "label",
+   "x": 142,
+   "y": 344,
+   "src": "Slot 5 nick",
+   "id": "Slot5Nick",
+   "text": "",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "image",
+   "x": 136,
+   "y": 363,
+   "src": "Slot 5 ready badge frame=1",
+   "id": "Slot5Badge",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 1
+  },
+  {
+   "kind": "image",
+   "x": 166,
+   "y": 313,
+   "src": "Slot 5 shadow",
+   "id": "Slot5Shadow",
+   "sprite": "Shadow/Shadow",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 154,
+   "y": 262,
+   "src": "Slot 5 char adjust",
+   "id": "Slot5CharAdjust",
+   "sprite": "Character/C00-Start_ALayerAdjust",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 154,
+   "y": 262,
+   "src": "Slot 5 char static",
+   "id": "Slot5CharStatic",
+   "sprite": "Character/C00-Start_ALayerStatic",
+   "frame": 0
+  },
+  {
+   "kind": "label",
+   "x": 248,
+   "y": 344,
+   "src": "Slot 6 nick",
+   "id": "Slot6Nick",
+   "text": "",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "image",
+   "x": 242,
+   "y": 363,
+   "src": "Slot 6 ready badge frame=1",
+   "id": "Slot6Badge",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 1
+  },
+  {
+   "kind": "image",
+   "x": 272,
+   "y": 313,
+   "src": "Slot 6 shadow",
+   "id": "Slot6Shadow",
+   "sprite": "Shadow/Shadow",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 260,
+   "y": 262,
+   "src": "Slot 6 char adjust",
+   "id": "Slot6CharAdjust",
+   "sprite": "Character/C00-Start_ALayerAdjust",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 260,
+   "y": 262,
+   "src": "Slot 6 char static",
+   "id": "Slot6CharStatic",
+   "sprite": "Character/C00-Start_ALayerStatic",
+   "frame": 0
+  },
+  {
+   "kind": "label",
+   "x": 354,
+   "y": 344,
+   "src": "Slot 7 nick",
+   "id": "Slot7Nick",
+   "text": "",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "image",
+   "x": 348,
+   "y": 363,
+   "src": "Slot 7 ready badge frame=1",
+   "id": "Slot7Badge",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 1
+  },
+  {
+   "kind": "image",
+   "x": 378,
+   "y": 313,
+   "src": "Slot 7 shadow",
+   "id": "Slot7Shadow",
+   "sprite": "Shadow/Shadow",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 366,
+   "y": 262,
+   "src": "Slot 7 char adjust",
+   "id": "Slot7CharAdjust",
+   "sprite": "Character/C00-Start_ALayerAdjust",
+   "frame": 0
+  },
+  {
+   "kind": "image",
+   "x": 366,
+   "y": 262,
+   "src": "Slot 7 char static",
+   "id": "Slot7CharStatic",
+   "sprite": "Character/C00-Start_ALayerStatic",
+   "frame": 0
+  },
+  {
+   "kind": "edit",
+   "x": 143,
+   "y": 524,
+   "src": "CAStage_1 chat recess (140, 523)",
+   "id": "room_chat",
+   "w": 248,
+   "h": 20,
+   "text": "Tán gẫu...",
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "button",
+   "x": 398,
+   "y": 520,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) Shout btn",
+   "sprite": "Etc/BtSpeaker_Speaker",
+   "action": "unsupported"
+  },
+  {
+   "kind": "image",
+   "x": 490,
+   "y": 22,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) top char banner (279x84)",
+   "sprite": "Etc/ChaInfo_Char00",
+   "id": "CharBanner"
+  },
+  {
+   "kind": "button",
+   "x": 487,
+   "y": 113,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 0",
+   "sprite": "Shop/S_SelChara00",
+   "id": "CharBtn0",
+   "action": "select_char:0"
+  },
+  {
+   "kind": "button",
+   "x": 559,
+   "y": 113,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 1",
+   "sprite": "Shop/S_SelChara01",
+   "id": "CharBtn1",
+   "action": "select_char:1"
+  },
+  {
+   "kind": "button",
+   "x": 631,
+   "y": 113,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 2",
+   "sprite": "Shop/S_SelChara03",
+   "id": "CharBtn2",
+   "action": "select_char:2"
+  },
+  {
+   "kind": "button",
+   "x": 703,
+   "y": 113,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 3",
+   "sprite": "Shop/S_SelChara05",
+   "id": "CharBtn3",
+   "action": "select_char:3"
+  },
+  {
+   "kind": "button",
+   "x": 487,
+   "y": 160,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 4",
+   "sprite": "Shop/S_SelChara04",
+   "id": "CharBtn4",
+   "action": "select_char:4"
+  },
+  {
+   "kind": "button",
+   "x": 559,
+   "y": 160,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 5",
+   "sprite": "Shop/S_SelChara06",
+   "id": "CharBtn5",
+   "action": "select_char:5"
+  },
+  {
+   "kind": "button",
+   "x": 631,
+   "y": 160,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 6",
+   "sprite": "Shop/S_SelChara02",
+   "id": "CharBtn6",
+   "action": "select_char:6"
+  },
+  {
+   "kind": "button",
+   "x": 703,
+   "y": 160,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 7",
+   "sprite": "Shop/S_SelChara07",
+   "id": "CharBtn7",
+   "action": "select_char:7"
+  },
+  {
+   "kind": "button",
+   "x": 487,
+   "y": 207,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 8",
+   "sprite": "Shop/S_SelChara14",
+   "id": "CharBtn8",
+   "action": "select_char:8"
+  },
+  {
+   "kind": "button",
+   "x": 559,
+   "y": 207,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 9",
+   "sprite": "Shop/S_SelChara15",
+   "id": "CharBtn9",
+   "action": "select_char:9"
+  },
+  {
+   "kind": "button",
+   "x": 631,
+   "y": 207,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) char slot 10",
+   "sprite": "Prepare/S_Selrandom",
+   "id": "CharBtn10",
+   "action": "select_char:10"
+  },
+  {
+   "kind": "image",
+   "x": 528,
+   "y": 111,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) selected char check mark",
+   "sprite": "Prepare/PRE_Img",
+   "id": "CharCheck",
+   "frame": 7
+  },
+  {
+   "kind": "button",
+   "x": 484,
+   "y": 280,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) team 0",
+   "sprite": "Prepare/PRE_SelTeam-Basic00",
+   "id": "TeamBtn0",
+   "action": "select_team:0"
+  },
+  {
+   "kind": "button",
+   "x": 521,
+   "y": 280,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) team 1",
+   "sprite": "Prepare/PRE_SelTeam-Basic01",
+   "id": "TeamBtn1",
+   "action": "select_team:1"
+  },
+  {
+   "kind": "button",
+   "x": 558,
+   "y": 280,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) team 2",
+   "sprite": "Prepare/PRE_SelTeam-Basic02",
+   "id": "TeamBtn2",
+   "action": "select_team:2"
+  },
+  {
+   "kind": "button",
+   "x": 595,
+   "y": 280,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) team 3",
+   "sprite": "Prepare/PRE_SelTeam-Basic03",
+   "id": "TeamBtn3",
+   "action": "select_team:3"
+  },
+  {
+   "kind": "button",
+   "x": 632,
+   "y": 280,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) team 4",
+   "sprite": "Prepare/PRE_SelTeam-Basic04",
+   "id": "TeamBtn4",
+   "action": "select_team:4"
+  },
+  {
+   "kind": "button",
+   "x": 669,
+   "y": 280,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) team 5",
+   "sprite": "Prepare/PRE_SelTeam-Basic05",
+   "id": "TeamBtn5",
+   "action": "select_team:5"
+  },
+  {
+   "kind": "button",
+   "x": 706,
+   "y": 280,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) team 6",
+   "sprite": "Prepare/PRE_SelTeam-Basic06",
+   "id": "TeamBtn6",
+   "action": "select_team:6"
+  },
+  {
+   "kind": "button",
+   "x": 743,
+   "y": 280,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) team 7",
+   "sprite": "Prepare/PRE_SelTeam-Basic07",
+   "id": "TeamBtn7",
+   "action": "select_team:7"
+  },
+  {
+   "kind": "image",
+   "x": 494,
+   "y": 272,
+   "src": "Team checkmark",
+   "id": "TeamCheck",
+   "sprite": "Prepare/PRE_Img",
+   "frame": 7
+  },
+  {
+   "kind": "image",
+   "x": 491,
+   "y": 349,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) 148x128 minimap preview",
+   "sprite": "Etc/Camp08_mm",
+   "id": "MapPreview"
+  },
+  {
+   "kind": "label",
+   "x": 648,
+   "y": 351,
+   "src": "CAStage_1 map info line 1",
+   "id": "MapName",
+   "text": "Camp08",
+   "font_size": 11,
+   "font_color": "#ffffff"
+  },
+  {
+   "kind": "label",
+   "x": 648,
+   "y": 371,
+   "src": "CAStage_1 map info line 2",
+   "text": "Người: 8",
+   "font_size": 11,
+   "font_color": "#aaffaa"
+  },
+  {
+   "kind": "button",
+   "x": 646,
+   "y": 428,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) exact match (646, 428)",
+   "sprite": "Prepare/PRE_Bt_Selectmap",
+   "action": "dialog:select_map"
+  },
+  {
+   "kind": "button",
+   "x": 512,
+   "y": 494,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) exact match (512, 494)",
+   "sprite": "Prepare/PRE_Bt_Start",
+   "action": "goto:game_stage"
+  },
+  {
+   "kind": "button",
+   "x": 719,
+   "y": 525,
+   "src": "CPrepareStage (AnalizeTWClient/PrepareStage.ts + GameStage/Room.png + CAStage_1 recesses) exact match (719, 525)",
+   "sprite": "Prepare/PRE_Bt_CheckBox",
+   "action": "unsupported"
+  },
+  {
+   "kind": "color_rect",
+   "x": 0,
+   "y": 572,
+   "src": "CGlobalButtonDlg bar @y=572",
+   "w": 800,
+   "h": 28,
+   "color": "#003875"
+  },
+  {
+   "kind": "button",
+   "x": 18,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (72x24)",
+   "sprite": "GlobalUI/BtMenu",
+   "action": "dialog:menu"
+  },
+  {
+   "kind": "button",
+   "x": 104,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (31x24)",
+   "sprite": "GlobalUI/BtBack",
+   "action": "goto:lobby"
+  },
+  {
+   "kind": "button",
+   "x": 147,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (66x24)",
+   "sprite": "GlobalUI/BtShop",
+   "action": "shop"
+  },
+  {
+   "kind": "button",
+   "x": 221,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (69x24)",
+   "sprite": "GlobalUI/BtSquare",
+   "action": "square"
+  },
+  {
+   "kind": "button",
+   "x": 298,
+   "y": 575,
+   "src": "GlobalUI taskbar (31x24)",
+   "sprite": "GlobalUI/BtMessenger",
+   "action": "messenger"
+  },
+  {
+   "kind": "button",
+   "x": 468,
+   "y": 576,
+   "src": "GameStage/SelectServerStage.png match (77x22)",
+   "sprite": "GlobalUI/BtGachapon",
+   "action": "gachapon"
+  },
+  {
+   "kind": "button",
+   "x": 554,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (63x24)",
+   "sprite": "GlobalUI/BtQuest",
+   "action": "quest"
+  },
+  {
+   "kind": "button",
+   "x": 626,
+   "y": 575,
+   "src": "GlobalUI taskbar (67x24)",
+   "sprite": "GlobalUI/BtMyitem",
+   "action": "myitem"
+  },
+  {
+   "kind": "button",
+   "x": 706,
+   "y": 575,
+   "src": "GlobalUI taskbar (31x24)",
+   "sprite": "GlobalUI/BtMyInfo",
+   "action": "dialog:option"
+  },
+  {
+   "kind": "button",
+   "x": 752,
+   "y": 575,
+   "src": "GameStage/SelectServerStage.png match (31x24)",
+   "sprite": "GlobalUI/BtExit",
+   "action": "quit"
+  },
+  {
+   "kind": "label",
+   "x": 20,
+   "y": 10,
+   "src": "Notice",
+   "id": "Notice",
+   "text": ""
+  }
+ ]
+}

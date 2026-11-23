@@ -1,0 +1,4641 @@
+{
+ "characters": {
+  "Character/C00": {
+   "id": 0,
+   "code": "C00",
+   "key": "Dao",
+   "name_vn": "Nhanh Nhẩu",
+   "banner_sprite": "Etc/ChaInfo_Char00",
+   "select_sprite": "Shop/S_SelChara00",
+   "desc_vn": "Cậu bé chính nghĩa, cân bằng mọi chỉ số tốc độ, bóng nước và độ dài tia nước."
+  },
+  "Character/C01": {
+   "id": 1,
+   "code": "C01",
+   "key": "Dizini",
+   "name_vn": "Mật Ngọt",
+   "banner_sprite": "Etc/ChaInfo_Char01",
+   "select_sprite": "Shop/S_SelChara01",
+   "desc_vn": "Cô bé dễ thương với độ dài tia nước tối đa rất cao (9 ô)."
+  },
+  "Character/C02": {
+   "id": 6,
+   "code": "C02",
+   "key": "Uni",
+   "name_vn": "Bé Bỏng",
+   "banner_sprite": "Etc/ChaInfo_Char06",
+   "select_sprite": "Shop/S_SelChara02",
+   "desc_vn": "Em út nhỏ tuổi nhất làng Boom, khởi đầu sẵn với tia nước dài 2 ô."
+  },
+  "Character/C03": {
+   "id": 2,
+   "code": "C03",
+   "key": "Mos",
+   "name_vn": "Đầu Đinh",
+   "banner_sprite": "Etc/ChaInfo_Char02",
+   "select_sprite": "Shop/S_SelChara03",
+   "desc_vn": "Chàng trai mạnh mẽ, tốc độ khởi đầu nhanh (5/8)."
+  },
+  "Character/C04": {
+   "id": 4,
+   "code": "C04",
+   "key": "Marid",
+   "name_vn": "Mắt Xanh",
+   "banner_sprite": "Etc/ChaInfo_Char04",
+   "select_sprite": "Shop/S_SelChara04",
+   "desc_vn": "Cô nàng đỏng đảnh thích tiền vàng, khởi đầu với 2 quả bóng nước."
+  },
+  "Character/C05": {
+   "id": 3,
+   "code": "C05",
+   "key": "Ethi",
+   "name_vn": "Mọt Sách",
+   "banner_sprite": "Etc/ChaInfo_Char03",
+   "select_sprite": "Shop/S_SelChara05",
+   "desc_vn": "Cậu bé thông thái có thể đặt tối đa tới 10 quả bóng nước."
+  },
+  "Character/C06": {
+   "id": 5,
+   "code": "C06",
+   "key": "Bazzi",
+   "name_vn": "Khò Khò",
+   "banner_sprite": "Etc/ChaInfo_Char05",
+   "select_sprite": "Shop/S_SelChara06",
+   "desc_vn": "Chàng lười ham ngủ nhưng có tốc độ chạy nhanh nhất làng Boom (tối đa 9)."
+  },
+  "Character/C07": {
+   "id": 7,
+   "code": "C07",
+   "key": "Kephi",
+   "name_vn": "Thịt Mỡ",
+   "banner_sprite": "Etc/ChaInfo_Char07",
+   "select_sprite": "Shop/S_SelChara07",
+   "desc_vn": "Ham ăn nhưng sở hữu cả lượng bóng nước (9) lẫn tia nước (2 -> 8) cực mạnh."
+  },
+  "Character/C08": {
+   "id": 8,
+   "code": "C08",
+   "key": "Su",
+   "name_vn": "Thiên Sứ",
+   "banner_sprite": "Etc/ChaInfo_Char08",
+   "select_sprite": "Shop/S_SelChara14",
+   "desc_vn": "Thiên sứ ánh sáng với chỉ số khởi đầu vượt trội (Tốc độ 6, Bóng 3, Nước 3)."
+  },
+  "Character/C09": {
+   "id": 9,
+   "code": "C09",
+   "key": "Hoo",
+   "name_vn": "Tí Điệu",
+   "banner_sprite": "Etc/ChaInfo_Char09",
+   "select_sprite": "Shop/S_SelChara15",
+   "desc_vn": "Thông minh và quyến rũ! Khởi đầu với Tốc độ 5, Bóng 2, Nước 2."
+  },
+  "Character/C10": {
+   "id": 10,
+   "code": "C10",
+   "key": "LuxuryMarid",
+   "name_vn": "Mắt Biếc",
+   "banner_sprite": "Etc/ChaInfo_Char10",
+   "select_sprite": "Shop/S_SelChara10",
+   "desc_vn": "Phiên bản quý tộc của Mắt Xanh với tốc độ 5/9 và 2 bóng nước khởi đầu."
+  },
+  "Character/C11": {
+   "id": 11,
+   "code": "C11",
+   "key": "LuxuryMos",
+   "name_vn": "Tí Bảnh",
+   "banner_sprite": "Etc/ChaInfo_Char11",
+   "select_sprite": "Shop/S_SelChara11",
+   "desc_vn": "Nhân vật siêu cấp lịch lãm với tốc độ tối đa lên tới 10."
+  },
+  "Character/C13": {
+   "id": 13,
+   "code": "C13",
+   "key": "SuperDao",
+   "name_vn": "Tia Chớp",
+   "banner_sprite": "Etc/ChaInfo_Char13",
+   "select_sprite": "Shop/S_SelChara13",
+   "desc_vn": "Siêu nhân Tia Chớp khởi đầu với 3 bóng nước và tốc độ tối đa 10."
+  },
+  "Character/C14": {
+   "id": 14,
+   "code": "C14",
+   "key": "Lodumani",
+   "name_vn": "Hải Tặc",
+   "banner_sprite": "Etc/ChaInfo_Random",
+   "select_sprite": "Prepare/S_Selrandom",
+   "desc_vn": "Thuyền trưởng Hải Tặc huyền thoại (chỉ xuất hiện với tỉ lệ hiếm khi chọn Ngẫu Nhiên)."
+  },
+  "Character/C15": {
+   "id": 15,
+   "code": "C15",
+   "key": "Santa",
+   "name_vn": "Ông Già Noel",
+   "banner_sprite": "Etc/ChaInfo_Random",
+   "select_sprite": "Prepare/S_Selrandom",
+   "desc_vn": "Nhân vật đặc biệt mùa Giáng Sinh (chỉ xuất hiện với tỉ lệ hiếm khi chọn Ngẫu Nhiên)."
+  },
+  "Character/Random": {
+   "id": 99,
+   "code": "Random",
+   "key": "Random",
+   "name_vn": "Ngẫu Nhiên",
+   "banner_sprite": "Etc/ChaInfo_Random",
+   "select_sprite": "Prepare/S_Selrandom",
+   "desc_vn": "Chọn ngẫu nhiên nhân vật (có tỉ lệ ra Hải Tặc hoặc Ông Già Noel thấp hơn mặc định)."
+  }
+ },
+ "prepare_char_slots": [
+  {
+   "slot": 0,
+   "char": "Character/C00",
+   "button_sprite": "Shop/S_SelChara00",
+   "banner_sprite": "Etc/ChaInfo_Char00",
+   "name_vn": "Nhanh Nhẩu"
+  },
+  {
+   "slot": 1,
+   "char": "Character/C01",
+   "button_sprite": "Shop/S_SelChara01",
+   "banner_sprite": "Etc/ChaInfo_Char01",
+   "name_vn": "Mật Ngọt"
+  },
+  {
+   "slot": 2,
+   "char": "Character/C03",
+   "button_sprite": "Shop/S_SelChara03",
+   "banner_sprite": "Etc/ChaInfo_Char02",
+   "name_vn": "Đầu Đinh"
+  },
+  {
+   "slot": 3,
+   "char": "Character/C05",
+   "button_sprite": "Shop/S_SelChara05",
+   "banner_sprite": "Etc/ChaInfo_Char03",
+   "name_vn": "Mọt Sách"
+  },
+  {
+   "slot": 4,
+   "char": "Character/C04",
+   "button_sprite": "Shop/S_SelChara04",
+   "banner_sprite": "Etc/ChaInfo_Char04",
+   "name_vn": "Mắt Xanh"
+  },
+  {
+   "slot": 5,
+   "char": "Character/C06",
+   "button_sprite": "Shop/S_SelChara06",
+   "banner_sprite": "Etc/ChaInfo_Char05",
+   "name_vn": "Khò Khò"
+  },
+  {
+   "slot": 6,
+   "char": "Character/C02",
+   "button_sprite": "Shop/S_SelChara02",
+   "banner_sprite": "Etc/ChaInfo_Char06",
+   "name_vn": "Bé Bỏng"
+  },
+  {
+   "slot": 7,
+   "char": "Character/C07",
+   "button_sprite": "Shop/S_SelChara07",
+   "banner_sprite": "Etc/ChaInfo_Char07",
+   "name_vn": "Thịt Mỡ"
+  },
+  {
+   "slot": 8,
+   "char": "Character/C08",
+   "button_sprite": "Shop/S_SelChara14",
+   "banner_sprite": "Etc/ChaInfo_Char08",
+   "name_vn": "Thiên Sứ"
+  },
+  {
+   "slot": 9,
+   "char": "Character/C09",
+   "button_sprite": "Shop/S_SelChara15",
+   "banner_sprite": "Etc/ChaInfo_Char09",
+   "name_vn": "Tí Điệu"
+  },
+  {
+   "slot": 10,
+   "char": "Character/Random",
+   "button_sprite": "Prepare/S_Selrandom",
+   "banner_sprite": "Etc/ChaInfo_Random",
+   "name_vn": "Ngẫu Nhiên"
+  }
+ ],
+ "map_themes": {
+  "Camp": {
+   "name_vn": "Doanh trại",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Village": {
+   "name_vn": "Ngôi làng",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Factory": {
+   "name_vn": "Nhà máy",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Forest": {
+   "name_vn": "Rừng rậm",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Ice": {
+   "name_vn": "Băng tuyết",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Desert": {
+   "name_vn": "Sa mạc",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Mine": {
+   "name_vn": "Hầm mỏ",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Ocean": {
+   "name_vn": "Đại dương",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Patrit": {
+   "name_vn": "Cướp biển",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Tomb": {
+   "name_vn": "Nghĩa địa",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Cemetery": {
+   "name_vn": "Hầm mộ",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Xmas": {
+   "name_vn": "Giáng sinh",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "xmas": {
+   "name_vn": "Giáng sinh",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "KFG": {
+   "name_vn": "Võ đài Kungfu",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "Kfg": {
+   "name_vn": "Võ đài Kungfu",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "kfg": {
+   "name_vn": "Võ đài Kungfu",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "Kart": {
+   "name_vn": "Đường đua",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "PangLand": {
+   "name_vn": "Pháo đài",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "Pangland": {
+   "name_vn": "Pháo đài",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "Cookie": {
+   "name_vn": "Bánh ngọt",
+   "desc_vn": "Xứ sở bánh kẹo ngọt ngào với những khối bánh quy giòn tan."
+  },
+  "Aqua": {
+   "name_vn": "Thủy cung",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Bula": {
+   "name_vn": "Bộ lạc",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Rabbit": {
+   "name_vn": "Thỏ ngọc",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "BlackRabbit": {
+   "name_vn": "Thỏ đen",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "SnowBallFight": {
+   "name_vn": "Ném tuyết",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowyFields": {
+   "name_vn": "Cánh đồng tuyết",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "seafields": {
+   "name_vn": "Bãi biển",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "Zombie": {
+   "name_vn": "Xác sống",
+   "desc_vn": "Khu vực nhiễm độc nơi người chơi có thể biến thành Zombie."
+  },
+  "Zzolman": {
+   "name_vn": "Đất sét",
+   "desc_vn": "Đấu trường của binh đoàn người đất sét."
+  },
+  "SuperFighter": {
+   "name_vn": "Siêu đấu sĩ",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "Super": {
+   "name_vn": "Siêu cấp",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Ladder": {
+   "name_vn": "Đấu hạng",
+   "desc_vn": "Bản đồ thi đấu xếp hạng tiêu chuẩn."
+  },
+  "Tournament": {
+   "name_vn": "Giải đấu",
+   "desc_vn": "Đấu trường giải đấu chuyên nghiệp."
+  },
+  "Bonus": {
+   "name_vn": "Kho báu",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Monster": {
+   "name_vn": "Đấu quái",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "MonPen": {
+   "name_vn": "Chim cánh cụt",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonSeal": {
+   "name_vn": "Hải cẩu",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonGolem": {
+   "name_vn": "Người đá Golem",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonRobot": {
+   "name_vn": "Người máy",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonTurtle": {
+   "name_vn": "Rùa thần",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonSnowBear": {
+   "name_vn": "Gấu tuyết",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "RPG": {
+   "name_vn": "Phiêu lưu RPG",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "IamBoss": {
+   "name_vn": "Ta là Trùm",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "Hidden": {
+   "name_vn": "Truy tìm",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "LobbySquare": {
+   "name_vn": "Quảng trường",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  }
+ },
+ "maps": {
+  "Antarctic01": {
+   "name_vn": "Antarctic01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Aqua01": {
+   "name_vn": "Thủy cung 01",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Aqua02": {
+   "name_vn": "Thủy cung 02",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Aqua03": {
+   "name_vn": "Thủy cung 03",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Aqua04": {
+   "name_vn": "Thủy cung 04",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Aqua05": {
+   "name_vn": "Thủy cung 05",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Aqua06": {
+   "name_vn": "Thủy cung 06",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Aqua07": {
+   "name_vn": "Thủy cung 07",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Aqua08": {
+   "name_vn": "Thủy cung 08",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "Aqua09": {
+   "name_vn": "Thủy cung 09",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "BlackRabbit01": {
+   "name_vn": "Thỏ đen 01",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit02": {
+   "name_vn": "Thỏ đen 02",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit03": {
+   "name_vn": "Thỏ đen 03",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit04": {
+   "name_vn": "Thỏ đen 04",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit05": {
+   "name_vn": "Thỏ đen 05",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit06": {
+   "name_vn": "Thỏ đen 06",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit07": {
+   "name_vn": "Thỏ đen 07",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit08": {
+   "name_vn": "Thỏ đen 08",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit09": {
+   "name_vn": "Thỏ đen 09",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit10": {
+   "name_vn": "Thỏ đen 10",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "BlackRabbit11": {
+   "name_vn": "Thỏ đen 11",
+   "desc_vn": "Hang ổ của binh đoàn Thỏ Đen tinh nghịch."
+  },
+  "Bonus01": {
+   "name_vn": "Kho báu 01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus02": {
+   "name_vn": "Kho báu 02",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus03": {
+   "name_vn": "Kho báu 03",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus04": {
+   "name_vn": "Kho báu 04",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus05": {
+   "name_vn": "Kho báu 05",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus06": {
+   "name_vn": "Kho báu 06",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus07": {
+   "name_vn": "Kho báu 07",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus08": {
+   "name_vn": "Kho báu 08",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus09": {
+   "name_vn": "Kho báu 09",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bonus10": {
+   "name_vn": "Kho báu 10",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBig01": {
+   "name_vn": "Kho báu Big01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigRPG01": {
+   "name_vn": "Kho báu BigRPG01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigRPG02": {
+   "name_vn": "Kho báu BigRPG02",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigReward01": {
+   "name_vn": "Kho báu BigReward01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigReward02": {
+   "name_vn": "Kho báu BigReward02",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigReward04": {
+   "name_vn": "Kho báu BigReward04",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigReward05": {
+   "name_vn": "Kho báu BigReward05",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigReward06": {
+   "name_vn": "Kho báu BigReward06",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigReward07": {
+   "name_vn": "Kho báu BigReward07",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigReward08": {
+   "name_vn": "Kho báu BigReward08",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusBigReward09": {
+   "name_vn": "Kho báu BigReward09",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusCp01": {
+   "name_vn": "Kho báu Cp01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusCp02": {
+   "name_vn": "Kho báu Cp02",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusCp03": {
+   "name_vn": "Kho báu Cp03",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusDark01": {
+   "name_vn": "Kho báu Dark01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusExp01": {
+   "name_vn": "Kho báu Exp01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusExp02": {
+   "name_vn": "Kho báu Exp02",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusExp03": {
+   "name_vn": "Kho báu Exp03",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusLargeGourd01": {
+   "name_vn": "Kho báu LargeGourd01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusLargeGourd02": {
+   "name_vn": "Kho báu LargeGourd02",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusMazeMap01": {
+   "name_vn": "Kho báu MazeMap01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusMazeMap02": {
+   "name_vn": "Kho báu MazeMap02",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "BonusSnowBall01": {
+   "name_vn": "Kho báu SnowBall01",
+   "desc_vn": "Bản đồ thưởng ngập tràn tiền vàng Lucci và túi quà!"
+  },
+  "Bula00": {
+   "name_vn": "Bộ lạc 00",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula01": {
+   "name_vn": "Bộ lạc 01",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula02": {
+   "name_vn": "Bộ lạc 02",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula03": {
+   "name_vn": "Bộ lạc 03",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula04": {
+   "name_vn": "Bộ lạc 04",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula05": {
+   "name_vn": "Bộ lạc 05",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula06": {
+   "name_vn": "Bộ lạc 06",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula07": {
+   "name_vn": "Bộ lạc 07",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula08": {
+   "name_vn": "Bộ lạc 08",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula09": {
+   "name_vn": "Bộ lạc 09",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula10": {
+   "name_vn": "Bộ lạc 10",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula11": {
+   "name_vn": "Bộ lạc 11",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula12": {
+   "name_vn": "Bộ lạc 12",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula13": {
+   "name_vn": "Bộ lạc 13",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula14": {
+   "name_vn": "Bộ lạc 14",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula15": {
+   "name_vn": "Bộ lạc 15",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula16": {
+   "name_vn": "Bộ lạc 16",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula17": {
+   "name_vn": "Bộ lạc 17",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula18": {
+   "name_vn": "Bộ lạc 18",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula19": {
+   "name_vn": "Bộ lạc 19",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula20": {
+   "name_vn": "Bộ lạc 20",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula21": {
+   "name_vn": "Bộ lạc 21",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula22": {
+   "name_vn": "Bộ lạc 22",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "Bula23": {
+   "name_vn": "Bộ lạc 23",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "CAhero01": {
+   "name_vn": "CAhero01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero02": {
+   "name_vn": "CAhero02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero03": {
+   "name_vn": "CAhero03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero04": {
+   "name_vn": "CAhero04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero05": {
+   "name_vn": "CAhero05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero06": {
+   "name_vn": "CAhero06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero07": {
+   "name_vn": "CAhero07",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero08": {
+   "name_vn": "CAhero08",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero09": {
+   "name_vn": "CAhero09",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero10": {
+   "name_vn": "CAhero10",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero100": {
+   "name_vn": "CAhero100",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero101": {
+   "name_vn": "CAhero101",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero102": {
+   "name_vn": "CAhero102",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero103": {
+   "name_vn": "CAhero103",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero104": {
+   "name_vn": "CAhero104",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero105": {
+   "name_vn": "CAhero105",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero106": {
+   "name_vn": "CAhero106",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero107": {
+   "name_vn": "CAhero107",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero108": {
+   "name_vn": "CAhero108",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero109": {
+   "name_vn": "CAhero109",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero110": {
+   "name_vn": "CAhero110",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero111": {
+   "name_vn": "CAhero111",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero112": {
+   "name_vn": "CAhero112",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero113": {
+   "name_vn": "CAhero113",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero114": {
+   "name_vn": "CAhero114",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "CAhero115": {
+   "name_vn": "CAhero115",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Camp01": {
+   "name_vn": "Doanh trại 01",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp02": {
+   "name_vn": "Doanh trại 02",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp03": {
+   "name_vn": "Doanh trại 03",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp04": {
+   "name_vn": "Doanh trại 04",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp05": {
+   "name_vn": "Doanh trại 05",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp06": {
+   "name_vn": "Doanh trại 06",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp07": {
+   "name_vn": "Doanh trại 07",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp08": {
+   "name_vn": "Doanh trại 08",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp09": {
+   "name_vn": "Doanh trại 09",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp10": {
+   "name_vn": "Doanh trại 10",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp11": {
+   "name_vn": "Doanh trại 11",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp12": {
+   "name_vn": "Doanh trại 12",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp13": {
+   "name_vn": "Doanh trại 13",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp14": {
+   "name_vn": "Doanh trại 14",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Camp15": {
+   "name_vn": "Doanh trại 15",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "Cemetery01": {
+   "name_vn": "Hầm mộ 01",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery02": {
+   "name_vn": "Hầm mộ 02",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery03": {
+   "name_vn": "Hầm mộ 03",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery04": {
+   "name_vn": "Hầm mộ 04",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery05": {
+   "name_vn": "Hầm mộ 05",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery06": {
+   "name_vn": "Hầm mộ 06",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery07": {
+   "name_vn": "Hầm mộ 07",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery08": {
+   "name_vn": "Hầm mộ 08",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery09": {
+   "name_vn": "Hầm mộ 09",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery10": {
+   "name_vn": "Hầm mộ 10",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery11": {
+   "name_vn": "Hầm mộ 11",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery12": {
+   "name_vn": "Hầm mộ 12",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery13": {
+   "name_vn": "Hầm mộ 13",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery14": {
+   "name_vn": "Hầm mộ 14",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery15": {
+   "name_vn": "Hầm mộ 15",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery16": {
+   "name_vn": "Hầm mộ 16",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery17": {
+   "name_vn": "Hầm mộ 17",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery18": {
+   "name_vn": "Hầm mộ 18",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery19": {
+   "name_vn": "Hầm mộ 19",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Cemetery20": {
+   "name_vn": "Hầm mộ 20",
+   "desc_vn": "Hầm mộ cổ tối tăm đầy cạm bẫy và những bức tượng bí ẩn."
+  },
+  "Clover01": {
+   "name_vn": "Clover01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Clover02": {
+   "name_vn": "Clover02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Clover03": {
+   "name_vn": "Clover03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Clover04": {
+   "name_vn": "Clover04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Clover05": {
+   "name_vn": "Clover05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Clover06": {
+   "name_vn": "Clover06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Clovertest_01": {
+   "name_vn": "Clovertest_01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Clovertest_02": {
+   "name_vn": "Clovertest_02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Clovertest_03": {
+   "name_vn": "Clovertest_03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "ConfusedFight01": {
+   "name_vn": "ConfusedFight01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "ConfusedFight02": {
+   "name_vn": "ConfusedFight02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "ConfusedFight03": {
+   "name_vn": "ConfusedFight03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Cookie01": {
+   "name_vn": "Bánh ngọt 01",
+   "desc_vn": "Xứ sở bánh kẹo ngọt ngào với những khối bánh quy giòn tan."
+  },
+  "Cookie02": {
+   "name_vn": "Bánh ngọt 02",
+   "desc_vn": "Xứ sở bánh kẹo ngọt ngào với những khối bánh quy giòn tan."
+  },
+  "Cookie03": {
+   "name_vn": "Bánh ngọt 03",
+   "desc_vn": "Xứ sở bánh kẹo ngọt ngào với những khối bánh quy giòn tan."
+  },
+  "Cookie04": {
+   "name_vn": "Bánh ngọt 04",
+   "desc_vn": "Xứ sở bánh kẹo ngọt ngào với những khối bánh quy giòn tan."
+  },
+  "Cookie05": {
+   "name_vn": "Bánh ngọt 05",
+   "desc_vn": "Xứ sở bánh kẹo ngọt ngào với những khối bánh quy giòn tan."
+  },
+  "Cookie07": {
+   "name_vn": "Bánh ngọt 07",
+   "desc_vn": "Xứ sở bánh kẹo ngọt ngào với những khối bánh quy giòn tan."
+  },
+  "DarkKnight01": {
+   "name_vn": "DarkKnight01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Desert00": {
+   "name_vn": "Sa mạc 00",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert01": {
+   "name_vn": "Sa mạc 01",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert02": {
+   "name_vn": "Sa mạc 02",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert03": {
+   "name_vn": "Sa mạc 03",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert04": {
+   "name_vn": "Sa mạc 04",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert05": {
+   "name_vn": "Sa mạc 05",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert06": {
+   "name_vn": "Sa mạc 06",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert07": {
+   "name_vn": "Sa mạc 07",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert08": {
+   "name_vn": "Sa mạc 08",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert09": {
+   "name_vn": "Sa mạc 09",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert10": {
+   "name_vn": "Sa mạc 10",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert11": {
+   "name_vn": "Sa mạc 11",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert12": {
+   "name_vn": "Sa mạc 12",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert13": {
+   "name_vn": "Sa mạc 13",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert14": {
+   "name_vn": "Sa mạc 14",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "Desert15": {
+   "name_vn": "Sa mạc 15",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "DevTest01": {
+   "name_vn": "DevTest01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "EventCamp00": {
+   "name_vn": "[Sự kiện] Doanh trại 00",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "EventFactory00": {
+   "name_vn": "[Sự kiện] Nhà máy 00",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "EventForest00": {
+   "name_vn": "[Sự kiện] Rừng rậm 00",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "EventOcean00": {
+   "name_vn": "[Sự kiện] Đại dương 00",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "EventPatrit00": {
+   "name_vn": "[Sự kiện] Cướp biển 00",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "ExBula01": {
+   "name_vn": "[VIP] Bộ lạc 01",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "ExBula02": {
+   "name_vn": "[VIP] Bộ lạc 02",
+   "desc_vn": "Khu rừng bộ lạc nguyên thủy đầy bí ẩn."
+  },
+  "ExCamp01": {
+   "name_vn": "[VIP] Doanh trại 01",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "ExCamp02": {
+   "name_vn": "[VIP] Doanh trại 02",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "ExFactory01": {
+   "name_vn": "[VIP] Nhà máy 01",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "ExFactory02": {
+   "name_vn": "[VIP] Nhà máy 02",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "ExForest01": {
+   "name_vn": "[VIP] Rừng rậm 01",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "ExPatrit01": {
+   "name_vn": "[VIP] Cướp biển 01",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "ExPatrit02": {
+   "name_vn": "[VIP] Cướp biển 02",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "ExTomb01": {
+   "name_vn": "[VIP] Nghĩa địa 01",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "ExTomb02": {
+   "name_vn": "[VIP] Nghĩa địa 02",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "ExVillage01": {
+   "name_vn": "[VIP] Ngôi làng 01",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "ExVillage02": {
+   "name_vn": "[VIP] Ngôi làng 02",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Factory00": {
+   "name_vn": "Nhà máy 00",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory01": {
+   "name_vn": "Nhà máy 01",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory02": {
+   "name_vn": "Nhà máy 02",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory03": {
+   "name_vn": "Nhà máy 03",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory04": {
+   "name_vn": "Nhà máy 04",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory05": {
+   "name_vn": "Nhà máy 05",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory06": {
+   "name_vn": "Nhà máy 06",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory07": {
+   "name_vn": "Nhà máy 07",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory08": {
+   "name_vn": "Nhà máy 08",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory09": {
+   "name_vn": "Nhà máy 09",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory10": {
+   "name_vn": "Nhà máy 10",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory11": {
+   "name_vn": "Nhà máy 11",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory12": {
+   "name_vn": "Nhà máy 12",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory13": {
+   "name_vn": "Nhà máy 13",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory14": {
+   "name_vn": "Nhà máy 14",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory15": {
+   "name_vn": "Nhà máy 15",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory16": {
+   "name_vn": "Nhà máy 16",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory17": {
+   "name_vn": "Nhà máy 17",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory18": {
+   "name_vn": "Nhà máy 18",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory19": {
+   "name_vn": "Nhà máy 19",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory20": {
+   "name_vn": "Nhà máy 20",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory21": {
+   "name_vn": "Nhà máy 21",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory22": {
+   "name_vn": "Nhà máy 22",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "Factory23": {
+   "name_vn": "Nhà máy 23",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "FighterOfLegend01": {
+   "name_vn": "FighterOfLegend01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FighterOfLegend02": {
+   "name_vn": "FighterOfLegend02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FighterOfLegend03": {
+   "name_vn": "FighterOfLegend03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FighterOfLegend04": {
+   "name_vn": "FighterOfLegend04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FighterOfLegend05": {
+   "name_vn": "FighterOfLegend05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FighterOfLegend06": {
+   "name_vn": "FighterOfLegend06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Forest00": {
+   "name_vn": "Rừng rậm 00",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest01": {
+   "name_vn": "Rừng rậm 01",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest02": {
+   "name_vn": "Rừng rậm 02",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest03": {
+   "name_vn": "Rừng rậm 03",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest04": {
+   "name_vn": "Rừng rậm 04",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest05": {
+   "name_vn": "Rừng rậm 05",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest06": {
+   "name_vn": "Rừng rậm 06",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest07": {
+   "name_vn": "Rừng rậm 07",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest08": {
+   "name_vn": "Rừng rậm 08",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest09": {
+   "name_vn": "Rừng rậm 09",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest10": {
+   "name_vn": "Rừng rậm 10",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest11": {
+   "name_vn": "Rừng rậm 11",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest12": {
+   "name_vn": "Rừng rậm 12",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest13": {
+   "name_vn": "Rừng rậm 13",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest14": {
+   "name_vn": "Rừng rậm 14",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest15": {
+   "name_vn": "Rừng rậm 15",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest16": {
+   "name_vn": "Rừng rậm 16",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest17": {
+   "name_vn": "Rừng rậm 17",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest18": {
+   "name_vn": "Rừng rậm 18",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest19": {
+   "name_vn": "Rừng rậm 19",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest20": {
+   "name_vn": "Rừng rậm 20",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "Forest25": {
+   "name_vn": "Rừng rậm 25",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "FortuneStar01": {
+   "name_vn": "FortuneStar01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FortuneStar02": {
+   "name_vn": "FortuneStar02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FortuneStar03": {
+   "name_vn": "FortuneStar03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FortuneStar04": {
+   "name_vn": "FortuneStar04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FortuneStar05": {
+   "name_vn": "FortuneStar05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "FortuneStar06": {
+   "name_vn": "FortuneStar06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "GoldFlag01": {
+   "name_vn": "GoldFlag01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "GoldenBonusWriggle": {
+   "name_vn": "GoldenBonusWriggle",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "GolemRun01": {
+   "name_vn": "GolemRun01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Hidden01": {
+   "name_vn": "Truy tìm 01",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden02": {
+   "name_vn": "Truy tìm 02",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden03": {
+   "name_vn": "Truy tìm 03",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden04": {
+   "name_vn": "Truy tìm 04",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden05": {
+   "name_vn": "Truy tìm 05",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden06": {
+   "name_vn": "Truy tìm 06",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden07": {
+   "name_vn": "Truy tìm 07",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden08": {
+   "name_vn": "Truy tìm 08",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden09": {
+   "name_vn": "Truy tìm 09",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden10": {
+   "name_vn": "Truy tìm 10",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden11": {
+   "name_vn": "Truy tìm 11",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden12": {
+   "name_vn": "Truy tìm 12",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden13": {
+   "name_vn": "Truy tìm 13",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden14": {
+   "name_vn": "Truy tìm 14",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden15": {
+   "name_vn": "Truy tìm 15",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden16": {
+   "name_vn": "Truy tìm 16",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden17": {
+   "name_vn": "Truy tìm 17",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden18": {
+   "name_vn": "Truy tìm 18",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden19": {
+   "name_vn": "Truy tìm 19",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden20": {
+   "name_vn": "Truy tìm 20",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden21": {
+   "name_vn": "Truy tìm 21",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden22": {
+   "name_vn": "Truy tìm 22",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden23": {
+   "name_vn": "Truy tìm 23",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "Hidden24": {
+   "name_vn": "Truy tìm 24",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "HiddenCatchTest00": {
+   "name_vn": "Truy tìm CatchTest00",
+   "desc_vn": "Bản đồ ẩn mật truy tìm điểm khác biệt."
+  },
+  "IamBoss01": {
+   "name_vn": "Ta là Trùm 01",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "IamBoss02": {
+   "name_vn": "Ta là Trùm 02",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "IamBoss03": {
+   "name_vn": "Ta là Trùm 03",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "IamBoss04": {
+   "name_vn": "Ta là Trùm 04",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "IamBoss05": {
+   "name_vn": "Ta là Trùm 05",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "IamBoss06": {
+   "name_vn": "Ta là Trùm 06",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "IamBoss08": {
+   "name_vn": "Ta là Trùm 08",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "Ice00": {
+   "name_vn": "Băng tuyết 00",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice01": {
+   "name_vn": "Băng tuyết 01",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice02": {
+   "name_vn": "Băng tuyết 02",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice03": {
+   "name_vn": "Băng tuyết 03",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice04": {
+   "name_vn": "Băng tuyết 04",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice05": {
+   "name_vn": "Băng tuyết 05",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice06": {
+   "name_vn": "Băng tuyết 06",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice07": {
+   "name_vn": "Băng tuyết 07",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice08": {
+   "name_vn": "Băng tuyết 08",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice09": {
+   "name_vn": "Băng tuyết 09",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice10": {
+   "name_vn": "Băng tuyết 10",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice11": {
+   "name_vn": "Băng tuyết 11",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice12": {
+   "name_vn": "Băng tuyết 12",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice13": {
+   "name_vn": "Băng tuyết 13",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice14": {
+   "name_vn": "Băng tuyết 14",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice15": {
+   "name_vn": "Băng tuyết 15",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice16": {
+   "name_vn": "Băng tuyết 16",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Ice17": {
+   "name_vn": "Băng tuyết 17",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "Javelin01": {
+   "name_vn": "Javelin01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Javelin02": {
+   "name_vn": "Javelin02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Javelin03": {
+   "name_vn": "Javelin03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Javelin04": {
+   "name_vn": "Javelin04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Javelin05": {
+   "name_vn": "Javelin05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Javelin06": {
+   "name_vn": "Javelin06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Kart00": {
+   "name_vn": "Đường đua 00",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart01": {
+   "name_vn": "Đường đua 01",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart02": {
+   "name_vn": "Đường đua 02",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart03": {
+   "name_vn": "Đường đua 03",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart04": {
+   "name_vn": "Đường đua 04",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart05": {
+   "name_vn": "Đường đua 05",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart06": {
+   "name_vn": "Đường đua 06",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart07": {
+   "name_vn": "Đường đua 07",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart08": {
+   "name_vn": "Đường đua 08",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart09": {
+   "name_vn": "Đường đua 09",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart10": {
+   "name_vn": "Đường đua 10",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart11": {
+   "name_vn": "Đường đua 11",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart12": {
+   "name_vn": "Đường đua 12",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart13": {
+   "name_vn": "Đường đua 13",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart14": {
+   "name_vn": "Đường đua 14",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart15": {
+   "name_vn": "Đường đua 15",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart16": {
+   "name_vn": "Đường đua 16",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kart17": {
+   "name_vn": "Đường đua 17",
+   "desc_vn": "Đường đua tốc độ cao dành cho những tay lái xe Kart cừ khôi."
+  },
+  "Kfg02": {
+   "name_vn": "Võ đài Kungfu 02",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "Kfg03": {
+   "name_vn": "Võ đài Kungfu 03",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "Kfg04": {
+   "name_vn": "Võ đài Kungfu 04",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "Ladder01": {
+   "name_vn": "Đấu hạng 01",
+   "desc_vn": "Bản đồ thi đấu xếp hạng tiêu chuẩn."
+  },
+  "Ladder02": {
+   "name_vn": "Đấu hạng 02",
+   "desc_vn": "Bản đồ thi đấu xếp hạng tiêu chuẩn."
+  },
+  "Ladder03": {
+   "name_vn": "Đấu hạng 03",
+   "desc_vn": "Bản đồ thi đấu xếp hạng tiêu chuẩn."
+  },
+  "Ladder04": {
+   "name_vn": "Đấu hạng 04",
+   "desc_vn": "Bản đồ thi đấu xếp hạng tiêu chuẩn."
+  },
+  "Ladder05": {
+   "name_vn": "Đấu hạng 05",
+   "desc_vn": "Bản đồ thi đấu xếp hạng tiêu chuẩn."
+  },
+  "LobbyCaffe01": {
+   "name_vn": "LobbyCaffe01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyCaffe02": {
+   "name_vn": "LobbyCaffe02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyCaffe03": {
+   "name_vn": "LobbyCaffe03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyCaffe04": {
+   "name_vn": "LobbyCaffe04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyCaffe05": {
+   "name_vn": "LobbyCaffe05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyClothing01": {
+   "name_vn": "LobbyClothing01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyClothing02": {
+   "name_vn": "LobbyClothing02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyJewelry01": {
+   "name_vn": "LobbyJewelry01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyJewelry02": {
+   "name_vn": "LobbyJewelry02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyPet01": {
+   "name_vn": "LobbyPet01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbyPet02": {
+   "name_vn": "LobbyPet02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "LobbySquare01": {
+   "name_vn": "Quảng trường 01",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquare02": {
+   "name_vn": "Quảng trường 02",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquare03": {
+   "name_vn": "Quảng trường 03",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquare04": {
+   "name_vn": "Quảng trường 04",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquare05": {
+   "name_vn": "Quảng trường 05",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquare06": {
+   "name_vn": "Quảng trường 06",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquare07": {
+   "name_vn": "Quảng trường 07",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquare08": {
+   "name_vn": "Quảng trường 08",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquare09": {
+   "name_vn": "Quảng trường 09",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "LobbySquareFishingTest": {
+   "name_vn": "Quảng trường FishingTest",
+   "desc_vn": "Quảng trường giao lưu của cư dân làng Boom."
+  },
+  "Mine00": {
+   "name_vn": "Hầm mỏ 00",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine01": {
+   "name_vn": "Hầm mỏ 01",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine02": {
+   "name_vn": "Hầm mỏ 02",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine03": {
+   "name_vn": "Hầm mỏ 03",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine04": {
+   "name_vn": "Hầm mỏ 04",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine05": {
+   "name_vn": "Hầm mỏ 05",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine06": {
+   "name_vn": "Hầm mỏ 06",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine07": {
+   "name_vn": "Hầm mỏ 07",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine08": {
+   "name_vn": "Hầm mỏ 08",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine09": {
+   "name_vn": "Hầm mỏ 09",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine10": {
+   "name_vn": "Hầm mỏ 10",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine11": {
+   "name_vn": "Hầm mỏ 11",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine12": {
+   "name_vn": "Hầm mỏ 12",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine13": {
+   "name_vn": "Hầm mỏ 13",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine14": {
+   "name_vn": "Hầm mỏ 14",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine15": {
+   "name_vn": "Hầm mỏ 15",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine16": {
+   "name_vn": "Hầm mỏ 16",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine17": {
+   "name_vn": "Hầm mỏ 17",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine18": {
+   "name_vn": "Hầm mỏ 18",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine19": {
+   "name_vn": "Hầm mỏ 19",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine20": {
+   "name_vn": "Hầm mỏ 20",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine21": {
+   "name_vn": "Hầm mỏ 21",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "Mine22": {
+   "name_vn": "Hầm mỏ 22",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "MonBig01": {
+   "name_vn": "MonBig01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig02": {
+   "name_vn": "MonBig02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig03": {
+   "name_vn": "MonBig03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig04": {
+   "name_vn": "MonBig04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig05": {
+   "name_vn": "MonBig05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig06": {
+   "name_vn": "MonBig06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig07": {
+   "name_vn": "MonBig07",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig08": {
+   "name_vn": "MonBig08",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig09": {
+   "name_vn": "MonBig09",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig10": {
+   "name_vn": "MonBig10",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonBig11": {
+   "name_vn": "MonBig11",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonGolem01": {
+   "name_vn": "Người đá Golem 01",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem02": {
+   "name_vn": "Người đá Golem 02",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem03": {
+   "name_vn": "Người đá Golem 03",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem04": {
+   "name_vn": "Người đá Golem 04",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem05": {
+   "name_vn": "Người đá Golem 05",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem06": {
+   "name_vn": "Người đá Golem 06",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem07": {
+   "name_vn": "Người đá Golem 07",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem08": {
+   "name_vn": "Người đá Golem 08",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem09": {
+   "name_vn": "Người đá Golem 09",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem10": {
+   "name_vn": "Người đá Golem 10",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem11": {
+   "name_vn": "Người đá Golem 11",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem12": {
+   "name_vn": "Người đá Golem 12",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem13": {
+   "name_vn": "Người đá Golem 13",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem14": {
+   "name_vn": "Người đá Golem 14",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem15": {
+   "name_vn": "Người đá Golem 15",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem16": {
+   "name_vn": "Người đá Golem 16",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem17": {
+   "name_vn": "Người đá Golem 17",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem18": {
+   "name_vn": "Người đá Golem 18",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem19": {
+   "name_vn": "Người đá Golem 19",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem20": {
+   "name_vn": "Người đá Golem 20",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem21": {
+   "name_vn": "Người đá Golem 21",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem22": {
+   "name_vn": "Người đá Golem 22",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem23": {
+   "name_vn": "Người đá Golem 23",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem24": {
+   "name_vn": "Người đá Golem 24",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem25": {
+   "name_vn": "Người đá Golem 25",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem26": {
+   "name_vn": "Người đá Golem 26",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonGolem27": {
+   "name_vn": "Người đá Golem 27",
+   "desc_vn": "Săn Boss Người Đá Golem khổng lồ."
+  },
+  "MonHorde01": {
+   "name_vn": "MonHorde01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonHorde02": {
+   "name_vn": "MonHorde02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonHorde03": {
+   "name_vn": "MonHorde03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonHorde04": {
+   "name_vn": "MonHorde04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonHorde05": {
+   "name_vn": "MonHorde05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonHorde06": {
+   "name_vn": "MonHorde06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonHorde07": {
+   "name_vn": "MonHorde07",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonHorde08": {
+   "name_vn": "MonHorde08",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonHorde09": {
+   "name_vn": "MonHorde09",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonPen01": {
+   "name_vn": "Chim cánh cụt 01",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen02": {
+   "name_vn": "Chim cánh cụt 02",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen03": {
+   "name_vn": "Chim cánh cụt 03",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen04": {
+   "name_vn": "Chim cánh cụt 04",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen05": {
+   "name_vn": "Chim cánh cụt 05",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen06": {
+   "name_vn": "Chim cánh cụt 06",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen07": {
+   "name_vn": "Chim cánh cụt 07",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen08": {
+   "name_vn": "Chim cánh cụt 08",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen09": {
+   "name_vn": "Chim cánh cụt 09",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen10": {
+   "name_vn": "Chim cánh cụt 10",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen11": {
+   "name_vn": "Chim cánh cụt 11",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen12": {
+   "name_vn": "Chim cánh cụt 12",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen13": {
+   "name_vn": "Chim cánh cụt 13",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen14": {
+   "name_vn": "Chim cánh cụt 14",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen15": {
+   "name_vn": "Chim cánh cụt 15",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen16": {
+   "name_vn": "Chim cánh cụt 16",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen17": {
+   "name_vn": "Chim cánh cụt 17",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen18": {
+   "name_vn": "Chim cánh cụt 18",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen19": {
+   "name_vn": "Chim cánh cụt 19",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen20": {
+   "name_vn": "Chim cánh cụt 20",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen21": {
+   "name_vn": "Chim cánh cụt 21",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen22": {
+   "name_vn": "Chim cánh cụt 22",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen23": {
+   "name_vn": "Chim cánh cụt 23",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen24": {
+   "name_vn": "Chim cánh cụt 24",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen25": {
+   "name_vn": "Chim cánh cụt 25",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen26": {
+   "name_vn": "Chim cánh cụt 26",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen27": {
+   "name_vn": "Chim cánh cụt 27",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen28": {
+   "name_vn": "Chim cánh cụt 28",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen29": {
+   "name_vn": "Chim cánh cụt 29",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonPen30": {
+   "name_vn": "Chim cánh cụt 30",
+   "desc_vn": "Săn Boss Chim Cánh Cụt trên đảo băng."
+  },
+  "MonRobot01": {
+   "name_vn": "Người máy 01",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot02": {
+   "name_vn": "Người máy 02",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot03": {
+   "name_vn": "Người máy 03",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot04": {
+   "name_vn": "Người máy 04",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot05": {
+   "name_vn": "Người máy 05",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot06": {
+   "name_vn": "Người máy 06",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot07": {
+   "name_vn": "Người máy 07",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot08": {
+   "name_vn": "Người máy 08",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot09": {
+   "name_vn": "Người máy 09",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot10": {
+   "name_vn": "Người máy 10",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot11": {
+   "name_vn": "Người máy 11",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot12": {
+   "name_vn": "Người máy 12",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot13": {
+   "name_vn": "Người máy 13",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot14": {
+   "name_vn": "Người máy 14",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot15": {
+   "name_vn": "Người máy 15",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot16": {
+   "name_vn": "Người máy 16",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot17": {
+   "name_vn": "Người máy 17",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot18": {
+   "name_vn": "Người máy 18",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot19": {
+   "name_vn": "Người máy 19",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot20": {
+   "name_vn": "Người máy 20",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot21": {
+   "name_vn": "Người máy 21",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot22": {
+   "name_vn": "Người máy 22",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot23": {
+   "name_vn": "Người máy 23",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot24": {
+   "name_vn": "Người máy 24",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot25": {
+   "name_vn": "Người máy 25",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot26": {
+   "name_vn": "Người máy 26",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonRobot27": {
+   "name_vn": "Người máy 27",
+   "desc_vn": "Đột kích nhà máy tiêu diệt Boss Robot."
+  },
+  "MonS2Fire01": {
+   "name_vn": "MonS2Fire01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire02": {
+   "name_vn": "MonS2Fire02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire03": {
+   "name_vn": "MonS2Fire03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire04": {
+   "name_vn": "MonS2Fire04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire05": {
+   "name_vn": "MonS2Fire05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire06": {
+   "name_vn": "MonS2Fire06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire07": {
+   "name_vn": "MonS2Fire07",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire08": {
+   "name_vn": "MonS2Fire08",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire09": {
+   "name_vn": "MonS2Fire09",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire10": {
+   "name_vn": "MonS2Fire10",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire11": {
+   "name_vn": "MonS2Fire11",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire12": {
+   "name_vn": "MonS2Fire12",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire13": {
+   "name_vn": "MonS2Fire13",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire14": {
+   "name_vn": "MonS2Fire14",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Fire15": {
+   "name_vn": "MonS2Fire15",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand01": {
+   "name_vn": "MonS2Sand01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand01Boss": {
+   "name_vn": "MonS2Sand01Boss",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand02": {
+   "name_vn": "MonS2Sand02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand02Boss": {
+   "name_vn": "MonS2Sand02Boss",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand03": {
+   "name_vn": "MonS2Sand03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand03Boss": {
+   "name_vn": "MonS2Sand03Boss",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand04": {
+   "name_vn": "MonS2Sand04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand04Boss": {
+   "name_vn": "MonS2Sand04Boss",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand05": {
+   "name_vn": "MonS2Sand05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand05Boss": {
+   "name_vn": "MonS2Sand05Boss",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonS2Sand06Boss": {
+   "name_vn": "MonS2Sand06Boss",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonSeal01": {
+   "name_vn": "Hải cẩu 01",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal02": {
+   "name_vn": "Hải cẩu 02",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal03": {
+   "name_vn": "Hải cẩu 03",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal04": {
+   "name_vn": "Hải cẩu 04",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal05": {
+   "name_vn": "Hải cẩu 05",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal06": {
+   "name_vn": "Hải cẩu 06",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal07": {
+   "name_vn": "Hải cẩu 07",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal08": {
+   "name_vn": "Hải cẩu 08",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal09": {
+   "name_vn": "Hải cẩu 09",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal10": {
+   "name_vn": "Hải cẩu 10",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal11": {
+   "name_vn": "Hải cẩu 11",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal12": {
+   "name_vn": "Hải cẩu 12",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal13": {
+   "name_vn": "Hải cẩu 13",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal14": {
+   "name_vn": "Hải cẩu 14",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal15": {
+   "name_vn": "Hải cẩu 15",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal16": {
+   "name_vn": "Hải cẩu 16",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal17": {
+   "name_vn": "Hải cẩu 17",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal18": {
+   "name_vn": "Hải cẩu 18",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal19": {
+   "name_vn": "Hải cẩu 19",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal20": {
+   "name_vn": "Hải cẩu 20",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal21": {
+   "name_vn": "Hải cẩu 21",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal22": {
+   "name_vn": "Hải cẩu 22",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal23": {
+   "name_vn": "Hải cẩu 23",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal24": {
+   "name_vn": "Hải cẩu 24",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal25": {
+   "name_vn": "Hải cẩu 25",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal26": {
+   "name_vn": "Hải cẩu 26",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal27": {
+   "name_vn": "Hải cẩu 27",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal28": {
+   "name_vn": "Hải cẩu 28",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal29": {
+   "name_vn": "Hải cẩu 29",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal30": {
+   "name_vn": "Hải cẩu 30",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal31": {
+   "name_vn": "Hải cẩu 31",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal32": {
+   "name_vn": "Hải cẩu 32",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSeal33": {
+   "name_vn": "Hải cẩu 33",
+   "desc_vn": "Săn Boss Hải Cẩu Chúa."
+  },
+  "MonSnowBear01": {
+   "name_vn": "Gấu tuyết 01",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear02": {
+   "name_vn": "Gấu tuyết 02",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear03": {
+   "name_vn": "Gấu tuyết 03",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear04": {
+   "name_vn": "Gấu tuyết 04",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear05": {
+   "name_vn": "Gấu tuyết 05",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear06": {
+   "name_vn": "Gấu tuyết 06",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear07": {
+   "name_vn": "Gấu tuyết 07",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear08": {
+   "name_vn": "Gấu tuyết 08",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear09": {
+   "name_vn": "Gấu tuyết 09",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear10": {
+   "name_vn": "Gấu tuyết 10",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear11": {
+   "name_vn": "Gấu tuyết 11",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear12": {
+   "name_vn": "Gấu tuyết 12",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear13": {
+   "name_vn": "Gấu tuyết 13",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear14": {
+   "name_vn": "Gấu tuyết 14",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear15": {
+   "name_vn": "Gấu tuyết 15",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear16": {
+   "name_vn": "Gấu tuyết 16",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear17": {
+   "name_vn": "Gấu tuyết 17",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear18": {
+   "name_vn": "Gấu tuyết 18",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear19": {
+   "name_vn": "Gấu tuyết 19",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear20": {
+   "name_vn": "Gấu tuyết 20",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear21": {
+   "name_vn": "Gấu tuyết 21",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear22": {
+   "name_vn": "Gấu tuyết 22",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear23": {
+   "name_vn": "Gấu tuyết 23",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear24": {
+   "name_vn": "Gấu tuyết 24",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear25": {
+   "name_vn": "Gấu tuyết 25",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear26": {
+   "name_vn": "Gấu tuyết 26",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear27": {
+   "name_vn": "Gấu tuyết 27",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear28": {
+   "name_vn": "Gấu tuyết 28",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear29": {
+   "name_vn": "Gấu tuyết 29",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonSnowBear30": {
+   "name_vn": "Gấu tuyết 30",
+   "desc_vn": "Hang ổ của Gấu Tuyết khổng lồ."
+  },
+  "MonTurtle01": {
+   "name_vn": "Rùa thần 01",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle02": {
+   "name_vn": "Rùa thần 02",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle03": {
+   "name_vn": "Rùa thần 03",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle04": {
+   "name_vn": "Rùa thần 04",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle05": {
+   "name_vn": "Rùa thần 05",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle06": {
+   "name_vn": "Rùa thần 06",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle07": {
+   "name_vn": "Rùa thần 07",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle08": {
+   "name_vn": "Rùa thần 08",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle09": {
+   "name_vn": "Rùa thần 09",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle10": {
+   "name_vn": "Rùa thần 10",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle11": {
+   "name_vn": "Rùa thần 11",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle12": {
+   "name_vn": "Rùa thần 12",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle13": {
+   "name_vn": "Rùa thần 13",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle14": {
+   "name_vn": "Rùa thần 14",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle15": {
+   "name_vn": "Rùa thần 15",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle16": {
+   "name_vn": "Rùa thần 16",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle17": {
+   "name_vn": "Rùa thần 17",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle18": {
+   "name_vn": "Rùa thần 18",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle19": {
+   "name_vn": "Rùa thần 19",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle20": {
+   "name_vn": "Rùa thần 20",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle21": {
+   "name_vn": "Rùa thần 21",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle22": {
+   "name_vn": "Rùa thần 22",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle23": {
+   "name_vn": "Rùa thần 23",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle24": {
+   "name_vn": "Rùa thần 24",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle25": {
+   "name_vn": "Rùa thần 25",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle26": {
+   "name_vn": "Rùa thần 26",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonTurtle27": {
+   "name_vn": "Rùa thần 27",
+   "desc_vn": "Thử thách Rùa Thần đại dương."
+  },
+  "MonUnlimited01": {
+   "name_vn": "MonUnlimited01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited02": {
+   "name_vn": "MonUnlimited02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited03": {
+   "name_vn": "MonUnlimited03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited04": {
+   "name_vn": "MonUnlimited04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited05": {
+   "name_vn": "MonUnlimited05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited06": {
+   "name_vn": "MonUnlimited06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited07": {
+   "name_vn": "MonUnlimited07",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited08": {
+   "name_vn": "MonUnlimited08",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited09": {
+   "name_vn": "MonUnlimited09",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "MonUnlimited10": {
+   "name_vn": "MonUnlimited10",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Monster00": {
+   "name_vn": "Đấu quái 00",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster01": {
+   "name_vn": "Đấu quái 01",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster02": {
+   "name_vn": "Đấu quái 02",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster03": {
+   "name_vn": "Đấu quái 03",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster04": {
+   "name_vn": "Đấu quái 04",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster05": {
+   "name_vn": "Đấu quái 05",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster06": {
+   "name_vn": "Đấu quái 06",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster07": {
+   "name_vn": "Đấu quái 07",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster08": {
+   "name_vn": "Đấu quái 08",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster09": {
+   "name_vn": "Đấu quái 09",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster10": {
+   "name_vn": "Đấu quái 10",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster11": {
+   "name_vn": "Đấu quái 11",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster12": {
+   "name_vn": "Đấu quái 12",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster13": {
+   "name_vn": "Đấu quái 13",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster14": {
+   "name_vn": "Đấu quái 14",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster15": {
+   "name_vn": "Đấu quái 15",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster16": {
+   "name_vn": "Đấu quái 16",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster17": {
+   "name_vn": "Đấu quái 17",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster18": {
+   "name_vn": "Đấu quái 18",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster19": {
+   "name_vn": "Đấu quái 19",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster20": {
+   "name_vn": "Đấu quái 20",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster21": {
+   "name_vn": "Đấu quái 21",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster22": {
+   "name_vn": "Đấu quái 22",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster23": {
+   "name_vn": "Đấu quái 23",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster24": {
+   "name_vn": "Đấu quái 24",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster25": {
+   "name_vn": "Đấu quái 25",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster26": {
+   "name_vn": "Đấu quái 26",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster27": {
+   "name_vn": "Đấu quái 27",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster28": {
+   "name_vn": "Đấu quái 28",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster29": {
+   "name_vn": "Đấu quái 29",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster30": {
+   "name_vn": "Đấu quái 30",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster31": {
+   "name_vn": "Đấu quái 31",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster32": {
+   "name_vn": "Đấu quái 32",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster33": {
+   "name_vn": "Đấu quái 33",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster34": {
+   "name_vn": "Đấu quái 34",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster35": {
+   "name_vn": "Đấu quái 35",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster36": {
+   "name_vn": "Đấu quái 36",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster37": {
+   "name_vn": "Đấu quái 37",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster38": {
+   "name_vn": "Đấu quái 38",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster39": {
+   "name_vn": "Đấu quái 39",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster40": {
+   "name_vn": "Đấu quái 40",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster41": {
+   "name_vn": "Đấu quái 41",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "Monster42": {
+   "name_vn": "Đấu quái 42",
+   "desc_vn": "Bản đồ phối hợp tiêu diệt quái vật và săn Boss."
+  },
+  "NXCL_Aqua01": {
+   "name_vn": "[Giải đấu] Thủy cung 01",
+   "desc_vn": "Thủy cung sâu dưới đáy biển với bong bóng nước và sinh vật biển."
+  },
+  "NXCL_Camp08": {
+   "name_vn": "[Giải đấu] Doanh trại 08",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "NXCL_Cookie02": {
+   "name_vn": "[Giải đấu] Bánh ngọt 02",
+   "desc_vn": "Xứ sở bánh kẹo ngọt ngào với những khối bánh quy giòn tan."
+  },
+  "NXCL_Desert00": {
+   "name_vn": "[Giải đấu] Sa mạc 00",
+   "desc_vn": "Vùng sa mạc nắng nóng gần thị trấn với ốc đảo mát mẻ và những kim tự tháp bí ẩn."
+  },
+  "NXCL_Factory07": {
+   "name_vn": "[Giải đấu] Nhà máy 07",
+   "desc_vn": "Nhà máy chế tạo các loại bóng nước! Hãy coi chừng vòi phun nước bất ngờ từ dưới rãnh nhé!"
+  },
+  "NXCL_Forest07": {
+   "name_vn": "[Giải đấu] Rừng rậm 07",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "NXCL_Ice13": {
+   "name_vn": "[Giải đấu] Băng tuyết 13",
+   "desc_vn": "Vùng đất băng giá lạnh lẽo phía bắc làng Boom, mặt băng trơn trượt rất ít người dám bén mảng!"
+  },
+  "NXCL_Mine01": {
+   "name_vn": "[Giải đấu] Hầm mỏ 01",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "NXCL_Ocean02": {
+   "name_vn": "[Giải đấu] Đại dương 02",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "NXCL_PangLand15": {
+   "name_vn": "[Giải đấu] Pháo đài 15",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "NXCL_Patrit14": {
+   "name_vn": "[Giải đấu] Cướp biển 14",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "NXCL_Tomb12": {
+   "name_vn": "[Giải đấu] Nghĩa địa 12",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "NXCL_Village10": {
+   "name_vn": "[Giải đấu] Ngôi làng 10",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Ocean00": {
+   "name_vn": "Đại dương 00",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean01": {
+   "name_vn": "Đại dương 01",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean02": {
+   "name_vn": "Đại dương 02",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean03": {
+   "name_vn": "Đại dương 03",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean04": {
+   "name_vn": "Đại dương 04",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean05": {
+   "name_vn": "Đại dương 05",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean06": {
+   "name_vn": "Đại dương 06",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean07": {
+   "name_vn": "Đại dương 07",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean08": {
+   "name_vn": "Đại dương 08",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean09": {
+   "name_vn": "Đại dương 09",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean10": {
+   "name_vn": "Đại dương 10",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean11": {
+   "name_vn": "Đại dương 11",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean12": {
+   "name_vn": "Đại dương 12",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean13": {
+   "name_vn": "Đại dương 13",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean14": {
+   "name_vn": "Đại dương 14",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean15": {
+   "name_vn": "Đại dương 15",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean16": {
+   "name_vn": "Đại dương 16",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean17": {
+   "name_vn": "Đại dương 17",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean18": {
+   "name_vn": "Đại dương 18",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean19": {
+   "name_vn": "Đại dương 19",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean20": {
+   "name_vn": "Đại dương 20",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean21": {
+   "name_vn": "Đại dương 21",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean22": {
+   "name_vn": "Đại dương 22",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean23": {
+   "name_vn": "Đại dương 23",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean24": {
+   "name_vn": "Đại dương 24",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean25": {
+   "name_vn": "Đại dương 25",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "Ocean26": {
+   "name_vn": "Đại dương 26",
+   "desc_vn": "Vùng biển nhiệt đới phía nam làng Boom, nơi giải nhiệt tuyệt vời với dòng nước chảy."
+  },
+  "PangLand00": {
+   "name_vn": "Pháo đài 00",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand01": {
+   "name_vn": "Pháo đài 01",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand02": {
+   "name_vn": "Pháo đài 02",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand03": {
+   "name_vn": "Pháo đài 03",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand04": {
+   "name_vn": "Pháo đài 04",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand05": {
+   "name_vn": "Pháo đài 05",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand06": {
+   "name_vn": "Pháo đài 06",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand07": {
+   "name_vn": "Pháo đài 07",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand08": {
+   "name_vn": "Pháo đài 08",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand09": {
+   "name_vn": "Pháo đài 09",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand10": {
+   "name_vn": "Pháo đài 10",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand11": {
+   "name_vn": "Pháo đài 11",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand12": {
+   "name_vn": "Pháo đài 12",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "PangLand15": {
+   "name_vn": "Pháo đài 15",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "Pangland13": {
+   "name_vn": "Pháo đài 13",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "Pangland14": {
+   "name_vn": "Pháo đài 14",
+   "desc_vn": "Pháo đài giải trí của Hải Tặc, hãy coi chừng robot bắn bóng nước bất ngờ!"
+  },
+  "Patrit00": {
+   "name_vn": "Cướp biển 00",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit01": {
+   "name_vn": "Cướp biển 01",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit02": {
+   "name_vn": "Cướp biển 02",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit03": {
+   "name_vn": "Cướp biển 03",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit04": {
+   "name_vn": "Cướp biển 04",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit05": {
+   "name_vn": "Cướp biển 05",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit06": {
+   "name_vn": "Cướp biển 06",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit07": {
+   "name_vn": "Cướp biển 07",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit08": {
+   "name_vn": "Cướp biển 08",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit09": {
+   "name_vn": "Cướp biển 09",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit10": {
+   "name_vn": "Cướp biển 10",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit11": {
+   "name_vn": "Cướp biển 11",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit12": {
+   "name_vn": "Cướp biển 12",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit13": {
+   "name_vn": "Cướp biển 13",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit14": {
+   "name_vn": "Cướp biển 14",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit15": {
+   "name_vn": "Cướp biển 15",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit16": {
+   "name_vn": "Cướp biển 16",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit17": {
+   "name_vn": "Cướp biển 17",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Patrit18": {
+   "name_vn": "Cướp biển 18",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "Pharaoh01": {
+   "name_vn": "Pharaoh01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Pharaoh02": {
+   "name_vn": "Pharaoh02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "RPG01_B_03": {
+   "name_vn": "Phiêu lưu RPG 01_B_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG01_N_02": {
+   "name_vn": "Phiêu lưu RPG 01_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG01_S_01": {
+   "name_vn": "Phiêu lưu RPG 01_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG02_B_03": {
+   "name_vn": "Phiêu lưu RPG 02_B_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG02_N_02": {
+   "name_vn": "Phiêu lưu RPG 02_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG02_S_01": {
+   "name_vn": "Phiêu lưu RPG 02_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG03_B_03": {
+   "name_vn": "Phiêu lưu RPG 03_B_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG03_N_02": {
+   "name_vn": "Phiêu lưu RPG 03_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG03_S_01": {
+   "name_vn": "Phiêu lưu RPG 03_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG04_B_04": {
+   "name_vn": "Phiêu lưu RPG 04_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG04_N_02": {
+   "name_vn": "Phiêu lưu RPG 04_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG04_N_03": {
+   "name_vn": "Phiêu lưu RPG 04_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG04_S_01": {
+   "name_vn": "Phiêu lưu RPG 04_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0501_B_04": {
+   "name_vn": "Phiêu lưu RPG 0501_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0501_N_02": {
+   "name_vn": "Phiêu lưu RPG 0501_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0501_N_03": {
+   "name_vn": "Phiêu lưu RPG 0501_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0501_S_01": {
+   "name_vn": "Phiêu lưu RPG 0501_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG05_B_04": {
+   "name_vn": "Phiêu lưu RPG 05_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG05_N_02": {
+   "name_vn": "Phiêu lưu RPG 05_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG05_N_03": {
+   "name_vn": "Phiêu lưu RPG 05_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG05_S_01": {
+   "name_vn": "Phiêu lưu RPG 05_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0601_B_04": {
+   "name_vn": "Phiêu lưu RPG 0601_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0601_N_02": {
+   "name_vn": "Phiêu lưu RPG 0601_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0601_N_03": {
+   "name_vn": "Phiêu lưu RPG 0601_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0601_S_01": {
+   "name_vn": "Phiêu lưu RPG 0601_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG06_B_04": {
+   "name_vn": "Phiêu lưu RPG 06_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG06_N_02": {
+   "name_vn": "Phiêu lưu RPG 06_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG06_N_03": {
+   "name_vn": "Phiêu lưu RPG 06_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG06_S_01": {
+   "name_vn": "Phiêu lưu RPG 06_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0701_B_04": {
+   "name_vn": "Phiêu lưu RPG 0701_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0701_N_02": {
+   "name_vn": "Phiêu lưu RPG 0701_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0701_N_03": {
+   "name_vn": "Phiêu lưu RPG 0701_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0701_S_01": {
+   "name_vn": "Phiêu lưu RPG 0701_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG07_B_04": {
+   "name_vn": "Phiêu lưu RPG 07_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG07_N_02": {
+   "name_vn": "Phiêu lưu RPG 07_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG07_N_03": {
+   "name_vn": "Phiêu lưu RPG 07_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG07_S_01": {
+   "name_vn": "Phiêu lưu RPG 07_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0801_B_05": {
+   "name_vn": "Phiêu lưu RPG 0801_B_05",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0801_N_02": {
+   "name_vn": "Phiêu lưu RPG 0801_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0801_N_03": {
+   "name_vn": "Phiêu lưu RPG 0801_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0801_N_04": {
+   "name_vn": "Phiêu lưu RPG 0801_N_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0801_S_01": {
+   "name_vn": "Phiêu lưu RPG 0801_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG08_B_05": {
+   "name_vn": "Phiêu lưu RPG 08_B_05",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG08_N_02": {
+   "name_vn": "Phiêu lưu RPG 08_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG08_N_03": {
+   "name_vn": "Phiêu lưu RPG 08_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG08_N_04": {
+   "name_vn": "Phiêu lưu RPG 08_N_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG08_S_01": {
+   "name_vn": "Phiêu lưu RPG 08_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0901_B_04": {
+   "name_vn": "Phiêu lưu RPG 0901_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0901_N_02": {
+   "name_vn": "Phiêu lưu RPG 0901_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0901_N_03": {
+   "name_vn": "Phiêu lưu RPG 0901_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG0901_S_01": {
+   "name_vn": "Phiêu lưu RPG 0901_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG09_B_05": {
+   "name_vn": "Phiêu lưu RPG 09_B_05",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG09_N_02": {
+   "name_vn": "Phiêu lưu RPG 09_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG09_N_03": {
+   "name_vn": "Phiêu lưu RPG 09_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG09_N_04": {
+   "name_vn": "Phiêu lưu RPG 09_N_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG09_S_01": {
+   "name_vn": "Phiêu lưu RPG 09_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG1001_B_04": {
+   "name_vn": "Phiêu lưu RPG 1001_B_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG1001_N_02": {
+   "name_vn": "Phiêu lưu RPG 1001_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG1001_N_03": {
+   "name_vn": "Phiêu lưu RPG 1001_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG1001_S_01": {
+   "name_vn": "Phiêu lưu RPG 1001_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG10_B_05": {
+   "name_vn": "Phiêu lưu RPG 10_B_05",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG10_N_02": {
+   "name_vn": "Phiêu lưu RPG 10_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG10_N_03": {
+   "name_vn": "Phiêu lưu RPG 10_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG10_N_04": {
+   "name_vn": "Phiêu lưu RPG 10_N_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG10_S_01": {
+   "name_vn": "Phiêu lưu RPG 10_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG11_B_05": {
+   "name_vn": "Phiêu lưu RPG 11_B_05",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG11_N_02": {
+   "name_vn": "Phiêu lưu RPG 11_N_02",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG11_N_03": {
+   "name_vn": "Phiêu lưu RPG 11_N_03",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG11_N_04": {
+   "name_vn": "Phiêu lưu RPG 11_N_04",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG11_S_01": {
+   "name_vn": "Phiêu lưu RPG 11_S_01",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "RPG99": {
+   "name_vn": "Phiêu lưu RPG 99",
+   "desc_vn": "Bản đồ đi cảnh phiêu lưu luyện cấp và làm nhiệm vụ."
+  },
+  "Rabbit01": {
+   "name_vn": "Thỏ ngọc 01",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit02": {
+   "name_vn": "Thỏ ngọc 02",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit03": {
+   "name_vn": "Thỏ ngọc 03",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit04": {
+   "name_vn": "Thỏ ngọc 04",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit05": {
+   "name_vn": "Thỏ ngọc 05",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit06": {
+   "name_vn": "Thỏ ngọc 06",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit07": {
+   "name_vn": "Thỏ ngọc 07",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit08": {
+   "name_vn": "Thỏ ngọc 08",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit09": {
+   "name_vn": "Thỏ ngọc 09",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit10": {
+   "name_vn": "Thỏ ngọc 10",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "Rabbit11": {
+   "name_vn": "Thỏ ngọc 11",
+   "desc_vn": "Vùng đất Thỏ Ngọc trên cung trăng với những bức tượng thỏ cảm ứng."
+  },
+  "SnowBallFight01": {
+   "name_vn": "Ném tuyết 01",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight02": {
+   "name_vn": "Ném tuyết 02",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight03": {
+   "name_vn": "Ném tuyết 03",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight04": {
+   "name_vn": "Ném tuyết 04",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight05": {
+   "name_vn": "Ném tuyết 05",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight06": {
+   "name_vn": "Ném tuyết 06",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight07": {
+   "name_vn": "Ném tuyết 07",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight08": {
+   "name_vn": "Ném tuyết 08",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight09": {
+   "name_vn": "Ném tuyết 09",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowBallFight10": {
+   "name_vn": "Ném tuyết 10",
+   "desc_vn": "Sân đấu ném cầu tuyết đóng băng đối thủ."
+  },
+  "SnowyFields01": {
+   "name_vn": "Cánh đồng tuyết 01",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields02": {
+   "name_vn": "Cánh đồng tuyết 02",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields03": {
+   "name_vn": "Cánh đồng tuyết 03",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields04": {
+   "name_vn": "Cánh đồng tuyết 04",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields05": {
+   "name_vn": "Cánh đồng tuyết 05",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields06": {
+   "name_vn": "Cánh đồng tuyết 06",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields07": {
+   "name_vn": "Cánh đồng tuyết 07",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields08": {
+   "name_vn": "Cánh đồng tuyết 08",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields09": {
+   "name_vn": "Cánh đồng tuyết 09",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields10": {
+   "name_vn": "Cánh đồng tuyết 10",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields11": {
+   "name_vn": "Cánh đồng tuyết 11",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields12": {
+   "name_vn": "Cánh đồng tuyết 12",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields13": {
+   "name_vn": "Cánh đồng tuyết 13",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields14": {
+   "name_vn": "Cánh đồng tuyết 14",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields15": {
+   "name_vn": "Cánh đồng tuyết 15",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields16": {
+   "name_vn": "Cánh đồng tuyết 16",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields17": {
+   "name_vn": "Cánh đồng tuyết 17",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "SnowyFields18": {
+   "name_vn": "Cánh đồng tuyết 18",
+   "desc_vn": "Cánh đồng tuyết trắng xóa trải dài."
+  },
+  "Square01": {
+   "name_vn": "Square01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Square02": {
+   "name_vn": "Square02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Super2Fighter01": {
+   "name_vn": "Siêu cấp 2Fighter01",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter02": {
+   "name_vn": "Siêu cấp 2Fighter02",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter03": {
+   "name_vn": "Siêu cấp 2Fighter03",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter04": {
+   "name_vn": "Siêu cấp 2Fighter04",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter05": {
+   "name_vn": "Siêu cấp 2Fighter05",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter06": {
+   "name_vn": "Siêu cấp 2Fighter06",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter07": {
+   "name_vn": "Siêu cấp 2Fighter07",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter08": {
+   "name_vn": "Siêu cấp 2Fighter08",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter09": {
+   "name_vn": "Siêu cấp 2Fighter09",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter10": {
+   "name_vn": "Siêu cấp 2Fighter10",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter11": {
+   "name_vn": "Siêu cấp 2Fighter11",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter12": {
+   "name_vn": "Siêu cấp 2Fighter12",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter13": {
+   "name_vn": "Siêu cấp 2Fighter13",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter14": {
+   "name_vn": "Siêu cấp 2Fighter14",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Fighter15": {
+   "name_vn": "Siêu cấp 2Fighter15",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Special01": {
+   "name_vn": "Siêu cấp 2Special01",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Special02": {
+   "name_vn": "Siêu cấp 2Special02",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "Super2Special03": {
+   "name_vn": "Siêu cấp 2Special03",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "SuperFighter01": {
+   "name_vn": "Siêu đấu sĩ 01",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter02": {
+   "name_vn": "Siêu đấu sĩ 02",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter03": {
+   "name_vn": "Siêu đấu sĩ 03",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter04": {
+   "name_vn": "Siêu đấu sĩ 04",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter05": {
+   "name_vn": "Siêu đấu sĩ 05",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter06": {
+   "name_vn": "Siêu đấu sĩ 06",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter07": {
+   "name_vn": "Siêu đấu sĩ 07",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter08": {
+   "name_vn": "Siêu đấu sĩ 08",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter09": {
+   "name_vn": "Siêu đấu sĩ 09",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter10": {
+   "name_vn": "Siêu đấu sĩ 10",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter11": {
+   "name_vn": "Siêu đấu sĩ 11",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter12": {
+   "name_vn": "Siêu đấu sĩ 12",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter13": {
+   "name_vn": "Siêu đấu sĩ 13",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter14": {
+   "name_vn": "Siêu đấu sĩ 14",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperFighter15": {
+   "name_vn": "Siêu đấu sĩ 15",
+   "desc_vn": "Đấu trường sinh tử của các Siêu Đấu Sĩ."
+  },
+  "SuperSpecial03": {
+   "name_vn": "Siêu cấp Special03",
+   "desc_vn": "Bản đồ đấu trường siêu cấp."
+  },
+  "SweetCandy_Bonus01": {
+   "name_vn": "SweetCandy_Bonus01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "SweetCandy_Bonus02": {
+   "name_vn": "SweetCandy_Bonus02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "SweetCandy_Bonus03": {
+   "name_vn": "SweetCandy_Bonus03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Tomb01": {
+   "name_vn": "Nghĩa địa 01",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb02": {
+   "name_vn": "Nghĩa địa 02",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb03": {
+   "name_vn": "Nghĩa địa 03",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb04": {
+   "name_vn": "Nghĩa địa 04",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb05": {
+   "name_vn": "Nghĩa địa 05",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb06": {
+   "name_vn": "Nghĩa địa 06",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb07": {
+   "name_vn": "Nghĩa địa 07",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb08": {
+   "name_vn": "Nghĩa địa 08",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb09": {
+   "name_vn": "Nghĩa địa 09",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb10": {
+   "name_vn": "Nghĩa địa 10",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb11": {
+   "name_vn": "Nghĩa địa 11",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb12": {
+   "name_vn": "Nghĩa địa 12",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb13": {
+   "name_vn": "Nghĩa địa 13",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb14": {
+   "name_vn": "Nghĩa địa 14",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb15": {
+   "name_vn": "Nghĩa địa 15",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb16": {
+   "name_vn": "Nghĩa địa 16",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb17": {
+   "name_vn": "Nghĩa địa 17",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb18": {
+   "name_vn": "Nghĩa địa 18",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb19": {
+   "name_vn": "Nghĩa địa 19",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb20": {
+   "name_vn": "Nghĩa địa 20",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb21": {
+   "name_vn": "Nghĩa địa 21",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tomb22": {
+   "name_vn": "Nghĩa địa 22",
+   "desc_vn": "Khu nghĩa địa âm u lạnh gáy, bóng ma có thể bất ngờ xuất hiện bất cứ lúc nào!"
+  },
+  "Tournament01": {
+   "name_vn": "Giải đấu 01",
+   "desc_vn": "Đấu trường giải đấu chuyên nghiệp."
+  },
+  "Tournament02": {
+   "name_vn": "Giải đấu 02",
+   "desc_vn": "Đấu trường giải đấu chuyên nghiệp."
+  },
+  "Tournament03": {
+   "name_vn": "Giải đấu 03",
+   "desc_vn": "Đấu trường giải đấu chuyên nghiệp."
+  },
+  "Tournament04": {
+   "name_vn": "Giải đấu 04",
+   "desc_vn": "Đấu trường giải đấu chuyên nghiệp."
+  },
+  "UserContest06": {
+   "name_vn": "UserContest06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest07": {
+   "name_vn": "UserContest07",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest08": {
+   "name_vn": "UserContest08",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest09": {
+   "name_vn": "UserContest09",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest10": {
+   "name_vn": "UserContest10",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest11": {
+   "name_vn": "UserContest11",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest12": {
+   "name_vn": "UserContest12",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest13": {
+   "name_vn": "UserContest13",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest14": {
+   "name_vn": "UserContest14",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest15": {
+   "name_vn": "UserContest15",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest16": {
+   "name_vn": "UserContest16",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest17": {
+   "name_vn": "UserContest17",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest18": {
+   "name_vn": "UserContest18",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest19": {
+   "name_vn": "UserContest19",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest20": {
+   "name_vn": "UserContest20",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest21": {
+   "name_vn": "UserContest21",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "UserContest22": {
+   "name_vn": "UserContest22",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Village00": {
+   "name_vn": "Ngôi làng 00",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village01": {
+   "name_vn": "Ngôi làng 01",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village02": {
+   "name_vn": "Ngôi làng 02",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village03": {
+   "name_vn": "Ngôi làng 03",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village04": {
+   "name_vn": "Ngôi làng 04",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village05": {
+   "name_vn": "Ngôi làng 05",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village06": {
+   "name_vn": "Ngôi làng 06",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village07": {
+   "name_vn": "Ngôi làng 07",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village08": {
+   "name_vn": "Ngôi làng 08",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village09": {
+   "name_vn": "Ngôi làng 09",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village10": {
+   "name_vn": "Ngôi làng 10",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village11": {
+   "name_vn": "Ngôi làng 11",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village12": {
+   "name_vn": "Ngôi làng 12",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village13": {
+   "name_vn": "Ngôi làng 13",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village14": {
+   "name_vn": "Ngôi làng 14",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village15": {
+   "name_vn": "Ngôi làng 15",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village16": {
+   "name_vn": "Ngôi làng 16",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "Village17": {
+   "name_vn": "Ngôi làng 17",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "WS_Camp08": {
+   "name_vn": "[Liên thắng] Doanh trại 08",
+   "desc_vn": "Tại Doanh trại dã chiến, hãy cẩn thận khi đặt bóng nước vì nếu chạm phải chông nhọn bóng sẽ nổ ngay lập tức!"
+  },
+  "WS_Colosseum01": {
+   "name_vn": "WS_Colosseum01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "WS_Mine21": {
+   "name_vn": "[Liên thắng] Hầm mỏ 21",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "WS_Patrit14": {
+   "name_vn": "[Liên thắng] Cướp biển 14",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "WS_Village10": {
+   "name_vn": "[Liên thắng] Ngôi làng 10",
+   "desc_vn": "Ngôi làng nhỏ xinh xắn với nhiều cửa hàng và mái nhà san sát. Hãy tận hưởng trận đấu vui vẻ tại đây!"
+  },
+  "WS_kfg11": {
+   "name_vn": "[Liên thắng] Võ đài Kungfu 11",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "WhiteAngel01": {
+   "name_vn": "WhiteAngel01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "WinningStreak_Colosseum01": {
+   "name_vn": "WinningStreak_Colosseum01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "WinningStreak_Patrit14": {
+   "name_vn": "WinningStreak_Patrit14",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggle01": {
+   "name_vn": "Wriggle01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggle02": {
+   "name_vn": "Wriggle02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggle03": {
+   "name_vn": "Wriggle03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggle04": {
+   "name_vn": "Wriggle04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggle05": {
+   "name_vn": "Wriggle05",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggle06": {
+   "name_vn": "Wriggle06",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggle07": {
+   "name_vn": "Wriggle07",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggletest_01": {
+   "name_vn": "Wriggletest_01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggletest_02": {
+   "name_vn": "Wriggletest_02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggletest_03": {
+   "name_vn": "Wriggletest_03",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Wriggletest_04": {
+   "name_vn": "Wriggletest_04",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "Xmas00": {
+   "name_vn": "Giáng sinh 00",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas01": {
+   "name_vn": "Giáng sinh 01",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas02": {
+   "name_vn": "Giáng sinh 02",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas03": {
+   "name_vn": "Giáng sinh 03",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas04": {
+   "name_vn": "Giáng sinh 04",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas05": {
+   "name_vn": "Giáng sinh 05",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas06": {
+   "name_vn": "Giáng sinh 06",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas07": {
+   "name_vn": "Giáng sinh 07",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas08": {
+   "name_vn": "Giáng sinh 08",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas09": {
+   "name_vn": "Giáng sinh 09",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas10": {
+   "name_vn": "Giáng sinh 10",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas11": {
+   "name_vn": "Giáng sinh 11",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas12": {
+   "name_vn": "Giáng sinh 12",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas13": {
+   "name_vn": "Giáng sinh 13",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Xmas14": {
+   "name_vn": "Giáng sinh 14",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "Zombie01": {
+   "name_vn": "Xác sống 01",
+   "desc_vn": "Khu vực nhiễm độc nơi người chơi có thể biến thành Zombie."
+  },
+  "Zombie02": {
+   "name_vn": "Xác sống 02",
+   "desc_vn": "Khu vực nhiễm độc nơi người chơi có thể biến thành Zombie."
+  },
+  "Zombie03": {
+   "name_vn": "Xác sống 03",
+   "desc_vn": "Khu vực nhiễm độc nơi người chơi có thể biến thành Zombie."
+  },
+  "Zombie04": {
+   "name_vn": "Xác sống 04",
+   "desc_vn": "Khu vực nhiễm độc nơi người chơi có thể biến thành Zombie."
+  },
+  "Zombie05": {
+   "name_vn": "Xác sống 05",
+   "desc_vn": "Khu vực nhiễm độc nơi người chơi có thể biến thành Zombie."
+  },
+  "Zombie06": {
+   "name_vn": "Xác sống 06",
+   "desc_vn": "Khu vực nhiễm độc nơi người chơi có thể biến thành Zombie."
+  },
+  "Zzolman01": {
+   "name_vn": "Đất sét 01",
+   "desc_vn": "Đấu trường của binh đoàn người đất sét."
+  },
+  "Zzolman02": {
+   "name_vn": "Đất sét 02",
+   "desc_vn": "Đấu trường của binh đoàn người đất sét."
+  },
+  "Zzolman03": {
+   "name_vn": "Đất sét 03",
+   "desc_vn": "Đấu trường của binh đoàn người đất sét."
+  },
+  "Zzolman04": {
+   "name_vn": "Đất sét 04",
+   "desc_vn": "Đấu trường của binh đoàn người đất sét."
+  },
+  "Zzolman05": {
+   "name_vn": "Đất sét 05",
+   "desc_vn": "Đấu trường của binh đoàn người đất sét."
+  },
+  "forest21": {
+   "name_vn": "Rừng rậm 21",
+   "desc_vn": "Khu rừng rậm rạp phía tây làng Boom với nhiều hoa đẹp, cây xanh và bụi cỏ ẩn nấp."
+  },
+  "iamboss07": {
+   "name_vn": "Ta là Trùm 07",
+   "desc_vn": "Chế độ 1 hóa Trùm khổng lồ đối đầu các người chơi còn lại."
+  },
+  "kfg01": {
+   "name_vn": "Võ đài Kungfu 01",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "kfg07": {
+   "name_vn": "Võ đài Kungfu 07",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "kfg11": {
+   "name_vn": "Võ đài Kungfu 11",
+   "desc_vn": "Sân đấu võ đài truyền thống đòi hỏi kỹ năng di chuyển và đặt bóng chuẩn xác."
+  },
+  "mine23": {
+   "name_vn": "Hầm mỏ 23",
+   "desc_vn": "Khu hầm mỏ phía đông làng Boom với đường ray xe goòng và rất nhiều đá quý."
+  },
+  "olympicKart01": {
+   "name_vn": "olympicKart01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "olympicRun01": {
+   "name_vn": "olympicRun01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "olympicRun02": {
+   "name_vn": "olympicRun02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "olympicShoot01": {
+   "name_vn": "olympicShoot01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "olympicShoot02": {
+   "name_vn": "olympicShoot02",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "patrit19": {
+   "name_vn": "Cướp biển 19",
+   "desc_vn": "Con tàu của Thuyền trưởng Hải Tặc chứa đầy kho báu và những khẩu đại bác."
+  },
+  "seafields01": {
+   "name_vn": "Bãi biển 01",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields02": {
+   "name_vn": "Bãi biển 02",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields03": {
+   "name_vn": "Bãi biển 03",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields04": {
+   "name_vn": "Bãi biển 04",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields05": {
+   "name_vn": "Bãi biển 05",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields06": {
+   "name_vn": "Bãi biển 06",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields07": {
+   "name_vn": "Bãi biển 07",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields08": {
+   "name_vn": "Bãi biển 08",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields09": {
+   "name_vn": "Bãi biển 09",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields10": {
+   "name_vn": "Bãi biển 10",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields11": {
+   "name_vn": "Bãi biển 11",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields12": {
+   "name_vn": "Bãi biển 12",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields13": {
+   "name_vn": "Bãi biển 13",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields14": {
+   "name_vn": "Bãi biển 14",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields15": {
+   "name_vn": "Bãi biển 15",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields16": {
+   "name_vn": "Bãi biển 16",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields17": {
+   "name_vn": "Bãi biển 17",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "seafields18": {
+   "name_vn": "Bãi biển 18",
+   "desc_vn": "Bãi biển nắng vàng rực rỡ."
+  },
+  "shopmap01": {
+   "name_vn": "shopmap01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "tlshopmap01": {
+   "name_vn": "tlshopmap01",
+   "desc_vn": "Bản đồ thi đấu Boom Online."
+  },
+  "xmas15": {
+   "name_vn": "Giáng sinh 15",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  },
+  "xmas16": {
+   "name_vn": "Giáng sinh 16",
+   "desc_vn": "Ngôi làng tuyết đêm Giáng Sinh lung linh ánh đèn và những hộp quà bất ngờ."
+  }
+ },
+ "items": {
+  "Item/ItemBomb": {
+   "name_vn": "Bóng nước",
+   "desc_vn": "Tăng thêm 1 quả bóng nước có thể đặt cùng lúc."
+  },
+  "Item/ItemFire": {
+   "name_vn": "Thuốc nước",
+   "desc_vn": "Tăng độ dài tia nước của bóng thêm 1 ô."
+  },
+  "Item/ItemRoller": {
+   "name_vn": "Giày trượt",
+   "desc_vn": "Tăng tốc độ di chuyển của nhân vật thêm 1 bậc."
+  },
+  "Item/ItemMaxPower": {
+   "name_vn": "Thuốc tím siêu cấp",
+   "desc_vn": "Tăng độ dài tia nước lên mức tối đa ngay lập tức."
+  },
+  "Item/ItemRedDevil": {
+   "name_vn": "Quỷ đỏ",
+   "desc_vn": "Tăng tốc độ chạy lên mức tối đa ngay lập tức."
+  },
+  "Item/ItemShoe": {
+   "name_vn": "Giày đá",
+   "desc_vn": "Cho phép đá quả bóng nước trước mặt trượt thẳng đi."
+  },
+  "Item/ItemPunch": {
+   "name_vn": "Găng tay đấm",
+   "desc_vn": "Đấm văng quả bóng nước trước mặt bay qua các vật cản."
+  },
+  "Item/ItemNeedle": {
+   "name_vn": "Kim chích",
+   "desc_vn": "Dùng kim tự chích vỡ bóng nước để giải cứu bản thân."
+  },
+  "Item/ItemShield": {
+   "name_vn": "Khiên bảo vệ",
+   "desc_vn": "Tạo vòng hào quang bất tử bảo vệ khỏi tia nước trong thời gian ngắn."
+  },
+  "Item/ItemDart": {
+   "name_vn": "Phi tiêu",
+   "desc_vn": "Phóng phi tiêu kích nổ bóng nước từ xa."
+  },
+  "Item/ItemOxygen": {
+   "name_vn": "Bình dưỡng khí",
+   "desc_vn": "Kéo dài thời gian sống sót khi bị nhốt trong bóng nước để chờ đồng đội cứu."
+  },
+  "Item/ItemGlass": {
+   "name_vn": "Kính xuyên thấu",
+   "desc_vn": "Nhìn xuyên qua các hộp mềm để biết vật phẩm ẩn bên trong."
+  },
+  "Item/ItemTonic": {
+   "name_vn": "Thuốc giải",
+   "desc_vn": "Hóa giải hiệu ứng lời nguyền của Quỷ tím / Đầu lâu."
+  },
+  "Item/ItemSpring": {
+   "name_vn": "Giày lò xo",
+   "desc_vn": "Nhảy qua 1 ô vật cản hoặc bóng nước trước mặt."
+  },
+  "Item/ItemDrill": {
+   "name_vn": "Máy khoan",
+   "desc_vn": "Phá hủy ngay lập tức ô hộp mềm trước mặt."
+  },
+  "Item/ItemRadio": {
+   "name_vn": "Bom hẹn giờ",
+   "desc_vn": "Đặt bóng nước điều khiển kích nổ theo ý muốn."
+  },
+  "Item/ItemRadar": {
+   "name_vn": "Ra-đa bóng nước",
+   "desc_vn": "Hiển thị phạm vi độ dài tia nước sẽ nổ."
+  },
+  "Item/ItemHollow": {
+   "name_vn": "Bóng tàng hình",
+   "desc_vn": "Làm quả bóng nước đặt ra trở nên trong suốt khó nhìn thấy."
+  },
+  "Item/ItemDevil": {
+   "name_vn": "Quỷ tím",
+   "desc_vn": "Gây đảo ngược phím di chuyển hoặc tự động đặt bóng nước (chạm vào người khác để lây)."
+  },
+  "Item/ItemSkeleton0": {
+   "name_vn": "Đầu lâu",
+   "desc_vn": "Gây hiệu ứng bất lợi ngẫu nhiên trong thời gian ngắn."
+  },
+  "Item/ItemGlue": {
+   "name_vn": "Keo dính",
+   "desc_vn": "Đặt bẫy keo trên mặt đất làm chậm tốc độ đối phương đạp phải."
+  },
+  "Item/ItemBanana": {
+   "name_vn": "Vỏ chuối",
+   "desc_vn": "Đặt vỏ chuối làm đối phương đạp phải bị trượt dài về phía trước."
+  },
+  "Item/ItemPin": {
+   "name_vn": "Đinh ghim",
+   "desc_vn": "Đặt đinh ghim trên sàn, bóng nước đặt lên ô có đinh sẽ phát nổ ngay lập tức!"
+  },
+  "Item/ItemTrap": {
+   "name_vn": "Bẫy sập",
+   "desc_vn": "Đặt bẫy tàng hình dưới đất, đối phương dẫm phải sẽ bị nhốt vào bóng nước ngay."
+  },
+  "Item/ItemSpanner": {
+   "name_vn": "Cờ lê sửa chữa",
+   "desc_vn": "Sửa đĩa bay hư hỏng trở thành đĩa bay tốc độ cao."
+  },
+  "Item/ItemCan": {
+   "name_vn": "Hộp thức ăn",
+   "desc_vn": "Cho rùa chậm ăn để biến thành rùa siêu tốc."
+  },
+  "Item/Lucci": {
+   "name_vn": "Tiền vàng Lucci",
+   "desc_vn": "Tiền vàng nhặt được dùng để mua trang phục trong Siêu Thị."
+  },
+  "Ship/Owl": {
+   "name_vn": "Cú mèo",
+   "desc_vn": "Thú cưỡi Cú mèo di chuyển tốc độ trung bình và đỡ được 1 lần trúng nước."
+  },
+  "Ship/Turtle0": {
+   "name_vn": "Rùa con",
+   "desc_vn": "Rùa bò rất chậm nhưng có thể tiến hóa thành Rùa siêu tốc."
+  },
+  "Ship/Turtle1": {
+   "name_vn": "Rùa siêu tốc",
+   "desc_vn": "Thú cưỡi Rùa chạy cực nhanh trên bản đồ."
+  },
+  "Ship/Airship": {
+   "name_vn": "Đĩa bay UFO",
+   "desc_vn": "Đĩa bay lơ lửng có thể bay xuyên qua mọi hộp mềm trên bản đồ!"
+  },
+  "Ship/AirshipBroken": {
+   "name_vn": "Đĩa bay hỏng",
+   "desc_vn": "Đĩa bay bị hỏng bay rất chậm nhưng vẫn đi xuyên qua hộp mềm."
+  },
+  "Ship/Octopus0": {
+   "name_vn": "Bạch tuộc chậm",
+   "desc_vn": "Thú cưỡi Bạch tuộc đại dương."
+  },
+  "Ship/Octopus1": {
+   "name_vn": "Bạch tuộc nhanh",
+   "desc_vn": "Thú cưỡi Bạch tuộc lướt nhanh như gió."
+  },
+  "Ship/Kart": {
+   "name_vn": "Xe đua Kart",
+   "desc_vn": "Xe đua tốc độ cao trên đường nhựa."
+  },
+  "Ship/Tank": {
+   "name_vn": "Xe tăng",
+   "desc_vn": "Chiến xa bọc thép có khả năng bắn đạn nước."
+  },
+  "Ship/Shark": {
+   "name_vn": "Cá mập",
+   "desc_vn": "Thú cưỡi Cá mập có thể nuốt bóng nước cản đường."
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "player1",
+      "password_hash": "admin",
+      "nickname": "BazziPro",
+      "level": 15,
+      "exp": 4250,
+      "lucci": 50000,
+      "cash": 10000,
+      "wins": 32,
+      "losses": 14,
+      "draws": 5,
+      "selected_char": "Character/C00"
+    },
+    {
+      "id": 2,
+      "username": "player2",
+      "password_hash": "123456",
+      "nickname": "DaoMaster",
+      "level": 12,
+      "exp": 3100,
+      "lucci": 35000,
+      "cash": 5000,
+      "wins": 20,
+      "losses": 8,
+      "draws": 2,
+      "selected_char": "Character/C01"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "password_hash": "admin",
+      "nickname": "CrazyPro",
+      "level": 25,
+      "exp": 9999,
+      "lucci": 999999,
+      "cash": 99999,
+      "wins": 88,
+      "losses": 12,
+      "draws": 7,
+      "selected_char": "Character/C00"
+    }
+  ],
+  "inventory": [],
+  "equipped": []
+}

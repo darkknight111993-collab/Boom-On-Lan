@@ -1,0 +1,212 @@
+{
+ "bgm": "StageChannel",
+ "elements": [
+  {
+   "kind": "jpg",
+   "x": 0,
+   "y": 0,
+   "src": "CAStage_Renew 800x600 background",
+   "sprite": "SelectServerStage/CAStage_Renew"
+  },
+  {
+   "kind": "image",
+   "id": "ch_game_logo",
+   "x": 12,
+   "y": 110,
+   "src": "Top-left game logo (CH_Logo_CA / CH_Logo_HC)",
+   "sprite": "SelectServerStage/CH_Logo_CA"
+  },
+  {
+   "kind": "button",
+   "id": "ch_mode_prev",
+   "x": 249,
+   "y": 43,
+   "src": "GameMode switcher left arrow (sub_858AB4 @ 0x858F9B)",
+   "sprite": "SelectServerStage/CH_Bt_Left",
+   "action": "ch_game_mode:toggle"
+  },
+  {
+   "kind": "button",
+   "id": "ch_mode_next",
+   "x": 472,
+   "y": 43,
+   "src": "GameMode switcher right arrow (sub_858AB4 @ 0x85902A)",
+   "sprite": "SelectServerStage/CH_Bt_Right",
+   "action": "ch_game_mode:toggle"
+  },
+  {
+   "kind": "label",
+   "id": "ch_mode_title",
+   "x": 308,
+   "y": 46,
+   "src": "Active game mode indicator (Boom / Hidden Catch)",
+   "text": "BOOM ONLINE",
+   "font_size": 16,
+   "font_color": "#ffe840"
+  },
+  {
+   "kind": "color_rect",
+   "id": "ch_banner_bg",
+   "x": 26,
+   "y": 164,
+   "w": 360,
+   "h": 352,
+   "color": "#0b3b78"
+  },
+  {
+   "kind": "label",
+   "id": "ch_banner_title",
+   "x": 44,
+   "y": 210,
+   "src": "Left banner slide title",
+   "text": "",
+   "font_size": 16,
+   "font_color": "#ffe840"
+  },
+  {
+   "kind": "label",
+   "id": "ch_banner_body",
+   "x": 44,
+   "y": 248,
+   "src": "Left banner slide description",
+   "text": "",
+   "font_size": 12,
+   "font_color": "#ffffff"
+  },
+  { "kind": "button", "id": "ch_banner_1", "x": 144, "y": 527, "sprite": "SelectServerStage/CH_Bt_BaNum01", "action": "ch_banner:1" },
+  { "kind": "button", "id": "ch_banner_2", "x": 172, "y": 527, "sprite": "SelectServerStage/CH_Bt_BaNum02", "action": "ch_banner:2" },
+  { "kind": "button", "id": "ch_banner_3", "x": 200, "y": 527, "sprite": "SelectServerStage/CH_Bt_BaNum03", "action": "ch_banner:3" },
+  { "kind": "button", "id": "ch_banner_4", "x": 228, "y": 527, "sprite": "SelectServerStage/CH_Bt_BaNum04", "action": "ch_banner:4" },
+  { "kind": "button", "id": "ch_banner_5", "x": 256, "y": 527, "sprite": "SelectServerStage/CH_Bt_BaNum05", "action": "ch_banner:5" },
+  {
+   "kind": "button",
+   "id": "ch_tab_0",
+   "x": 404,
+   "y": 122,
+   "src": "Tab 0 Novice (Tập Sự)",
+   "sprite": "SelectServerStage/CH_Tab_Novice",
+   "action": "ch_tab:novice"
+  },
+  {
+   "kind": "button",
+   "id": "ch_tab_1",
+   "x": 475,
+   "y": 122,
+   "src": "Tab 1 Free (Tự Do)",
+   "sprite": "SelectServerStage/CH_Tab_Free",
+   "action": "ch_tab:free"
+  },
+  {
+   "kind": "button",
+   "id": "ch_tab_2",
+   "x": 546,
+   "y": 122,
+   "src": "Tab 2 Ladder (Siêu Cấp)",
+   "sprite": "SelectServerStage/CH_Tab_Ladder",
+   "action": "ch_tab:ladder"
+  },
+  {
+   "kind": "button",
+   "id": "ch_tab_3",
+   "x": 617,
+   "y": 122,
+   "src": "Tab 3 Special (Đặc Biệt)",
+   "sprite": "SelectServerStage/CH_Tab_Special",
+   "action": "ch_tab:special"
+  },
+  {
+   "kind": "image",
+   "id": "ch_tab_balloon",
+   "x": 470,
+   "y": 90,
+   "src": "Active tab speech balloon (CH_Tab_*_Ba)",
+   "sprite": "SelectServerStage/CH_Tab_Free_Ba"
+  },
+  {
+   "kind": "image",
+   "id": "ch_bar_bg",
+   "x": 404,
+   "y": 224,
+   "src": "Active tab description bar (388x34)",
+   "sprite": "SelectServerStage/CH_ChBar_Free"
+  },
+  {
+   "kind": "label",
+   "id": "ch_bar_desc",
+   "x": 418,
+   "y": 234,
+   "src": "Active tab description text",
+   "text": "",
+   "font_size": 11,
+   "font_color": "#8a0000"
+  },
+  { "kind": "button", "id": "ch_btn_0", "x": 428, "y": 278, "sprite": "SelectServerStage/CH_Bt_Channel", "action": "ch_select:0" },
+  { "kind": "label",  "id": "ch_name_0", "x": 445, "y": 288, "text": "", "font_size": 11, "font_color": "#ffff00" },
+  { "kind": "button", "id": "ch_btn_1", "x": 595, "y": 278, "sprite": "SelectServerStage/CH_Bt_Channel", "action": "ch_select:1" },
+  { "kind": "label",  "id": "ch_name_1", "x": 612, "y": 288, "text": "", "font_size": 11, "font_color": "#ffff00" },
+  { "kind": "button", "id": "ch_btn_2", "x": 428, "y": 334, "sprite": "SelectServerStage/CH_Bt_Channel", "action": "ch_select:2" },
+  { "kind": "label",  "id": "ch_name_2", "x": 445, "y": 344, "text": "", "font_size": 11, "font_color": "#ffff00" },
+  { "kind": "button", "id": "ch_btn_3", "x": 595, "y": 334, "sprite": "SelectServerStage/CH_Bt_Channel", "action": "ch_select:3" },
+  { "kind": "label",  "id": "ch_name_3", "x": 612, "y": 344, "text": "", "font_size": 11, "font_color": "#ffff00" },
+  { "kind": "button", "id": "ch_btn_4", "x": 428, "y": 390, "sprite": "SelectServerStage/CH_Bt_Channel", "action": "ch_select:4" },
+  { "kind": "label",  "id": "ch_name_4", "x": 445, "y": 400, "text": "", "font_size": 11, "font_color": "#ffff00" },
+  { "kind": "button", "id": "ch_btn_5", "x": 595, "y": 390, "sprite": "SelectServerStage/CH_Bt_Channel", "action": "ch_select:5" },
+  { "kind": "label",  "id": "ch_name_5", "x": 612, "y": 400, "text": "", "font_size": 11, "font_color": "#ffff00" },
+  { "kind": "button", "id": "ch_btn_6", "x": 428, "y": 446, "sprite": "SelectServerStage/CH_Bt_Channel", "action": "ch_select:6" },
+  { "kind": "label",  "id": "ch_name_6", "x": 445, "y": 456, "text": "", "font_size": 11, "font_color": "#ffff00" },
+  { "kind": "button", "id": "ch_btn_7", "x": 595, "y": 446, "sprite": "SelectServerStage/CH_Bt_Channel", "action": "ch_select:7" },
+  { "kind": "label",  "id": "ch_name_7", "x": 612, "y": 456, "text": "", "font_size": 11, "font_color": "#ffff00" },
+  {
+   "kind": "button",
+   "id": "ch_page_prev",
+   "x": 490,
+   "y": 516,
+   "src": "Previous channel page",
+   "sprite": "SelectServerStage/CH_Bt_Left",
+   "action": "ch_page:prev"
+  },
+  {
+   "kind": "button",
+   "id": "ch_page_next",
+   "x": 676,
+   "y": 516,
+   "src": "Next channel page",
+   "sprite": "SelectServerStage/CH_Bt_Right",
+   "action": "ch_page:next"
+  },
+  {
+   "kind": "image",
+   "id": "ch_page_pill",
+   "x": 521,
+   "y": 519,
+   "src": "Active page pill",
+   "sprite": "SelectServerStage/CH_NuBg",
+   "frame": 3
+  },
+  { "kind": "button", "id": "ch_page_1", "x": 529, "y": 522, "sprite": "SelectServerStage/CH_Bt_ChNum", "frame": 1, "action": "ch_page:1" },
+  { "kind": "button", "id": "ch_page_2", "x": 559, "y": 522, "sprite": "SelectServerStage/CH_Bt_ChNum", "frame": 2, "action": "ch_page:2" },
+  { "kind": "button", "id": "ch_page_3", "x": 589, "y": 522, "sprite": "SelectServerStage/CH_Bt_ChNum", "frame": 3, "action": "ch_page:3" },
+  { "kind": "button", "id": "ch_page_4", "x": 619, "y": 522, "sprite": "SelectServerStage/CH_Bt_ChNum", "frame": 4, "action": "ch_page:4" },
+  { "kind": "button", "id": "ch_page_5", "x": 649, "y": 522, "sprite": "SelectServerStage/CH_Bt_ChNum", "frame": 5, "action": "ch_page:5" },
+  {
+   "kind": "color_rect",
+   "x": 0,
+   "y": 572,
+   "src": "CGlobalButtonDlg bar @y=572",
+   "w": 800,
+   "h": 28,
+   "color": "#003875"
+  },
+  { "kind": "button", "x": 18, "y": 575, "sprite": "GlobalUI/BtMenu", "action": "dialog:menu" },
+  { "kind": "button", "x": 104, "y": 575, "sprite": "GlobalUI/BtBack", "action": "goto:login" },
+  { "kind": "button", "x": 147, "y": 575, "sprite": "GlobalUI/BtShop", "action": "shop" },
+  { "kind": "button", "x": 221, "y": 575, "sprite": "GlobalUI/BtSquare", "action": "square" },
+  { "kind": "button", "x": 298, "y": 575, "sprite": "GlobalUI/BtMessenger", "action": "messenger" },
+  { "kind": "button", "x": 468, "y": 576, "sprite": "GlobalUI/BtGachapon", "action": "gachapon" },
+  { "kind": "button", "x": 554, "y": 575, "sprite": "GlobalUI/BtQuest", "action": "quest" },
+  { "kind": "button", "x": 626, "y": 575, "sprite": "GlobalUI/BtMyitem", "action": "myitem" },
+  { "kind": "button", "x": 706, "y": 575, "sprite": "GlobalUI/BtMyInfo", "action": "dialog:option" },
+  { "kind": "button", "x": 752, "y": 575, "sprite": "GlobalUI/BtExit", "action": "quit" },
+  { "kind": "label", "x": 10, "y": 10, "id": "Notice", "text": "" }
+ ]
+}
